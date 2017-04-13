@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Oral Care For The Elderly</string>
     <string name="action_settings">Settings</string>
+    <string name="cavities_title">Dental Cavities</string>
+    <string name="cavities_text1">Cavities (or Caries) occur as a result of tooth decay.</string>
+    <string name="cavities_text2">Tooth decay is the destruction of the tooth structure. Tooth decay can affect both the enamel and the dentin.</string>
+    <string name="cavity_pic">cavity_pic</string>
 </resources>

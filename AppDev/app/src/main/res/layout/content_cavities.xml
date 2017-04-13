@@ -10,33 +10,48 @@
     tools:showIn="@layout/activity_cavities">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/cavitiesIMG"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="54dp"
-        app:srcCompat="@drawable/dental_cavities_10"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:contentDescription="@string/cavity_pic"
+        app:srcCompat="@drawable/dental_cavities_10" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cavitiesTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="47dp"
-        android:text="Dental Cavities"
+        android:text="@string/cavities_title"
         android:textSize="36sp" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/cavitiesText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cavities (or Caries) occur as a result of tooth decay  Tooth decay is the destruction of the tooth structure. Tooth decay can affect both the enamel and the dentin  "
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView"
-        android:layout_marginTop="37dp"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView" />
+        android:layout_alignEnd="@+id/cavitiesTitle"
+        android:layout_alignLeft="@+id/cavitiesIMG"
+        android:layout_alignRight="@+id/cavitiesTitle"
+        android:layout_alignStart="@+id/cavitiesIMG"
+        android:layout_below="@+id/cavitiesTitle"
+        android:layout_marginTop="18dp"
+        android:text="@string/cavities_text1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/cavitiesText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cavitiesText1"
+        android:layout_alignLeft="@+id/cavitiesText1"
+        android:layout_alignRight="@+id/cavitiesText1"
+        android:layout_alignStart="@+id/cavitiesText1"
+        android:layout_below="@+id/cavitiesText1"
+        android:layout_marginTop="31dp"
+        android:text="@string/cavities_text2"
+        android:textAlignment="center" />
 </RelativeLayout>

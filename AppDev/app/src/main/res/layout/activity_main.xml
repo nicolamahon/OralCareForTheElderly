@@ -23,7 +23,8 @@
         android:text="@string/b"
         android:layout_below="@+id/A"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="gotoCavity"/>
 
     <Button
         android:id="@+id/C"

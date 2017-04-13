@@ -10,4 +10,5 @@
     <string name="b">Patient Care</string>
     <string name="c">Login</string>
     <string name="d">Information</string>
+    <string name="title_activity_natural_teeth">Natural Teeth</string>
 </resources>

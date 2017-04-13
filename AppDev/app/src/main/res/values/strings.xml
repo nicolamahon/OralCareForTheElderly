@@ -6,4 +6,8 @@
     <string name="cavities_text2">Tooth decay is the destruction of the tooth structure. Tooth decay can affect both the enamel and the dentin.</string>
     <string name="cavity_pic">cavity_pic</string>
     <string name="New_Activity">New Activity</string>
+    <string name="button">Self Care</string>
+    <string name="b">Patient Care</string>
+    <string name="c">Login</string>
+    <string name="d">Information</string>
 </resources>

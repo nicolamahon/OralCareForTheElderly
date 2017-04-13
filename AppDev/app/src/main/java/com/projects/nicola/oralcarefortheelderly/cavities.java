@@ -16,8 +16,8 @@ public class cavities extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cavities);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
         //back = (Button) findViewById(R.id.button2);
 
         /*
@@ -32,6 +32,7 @@ public class cavities extends AppCompatActivity {
         }
         );
         */
+
     }
 
     public void gotoNewActivity(View view)

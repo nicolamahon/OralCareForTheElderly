@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".testNewActivity"></activity>
+        <activity android:name=".testNewActivity" android:parentActivityName=".cavities"></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,6 @@
 package com.projects.nicola.oralcarefortheelderly;
 
-import android.content.Intent;
+ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +11,8 @@ public class testNewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_new);
+
+        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
     }
 
     public void gotoCavity(View view)

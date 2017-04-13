@@ -11,15 +11,16 @@ import android.widget.Button;
 
 public class cavities extends AppCompatActivity {
 
-    Button back;
+    // Button back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cavities);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        back = (Button) findViewById(R.id.button2);
+        //back = (Button) findViewById(R.id.button2);
 
+        /*
         back.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -30,7 +31,7 @@ public class cavities extends AppCompatActivity {
             }
         }
         );
-
+        */
     }
 
     public void gotoNewActivity(View view)

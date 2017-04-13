@@ -1,5 +1,6 @@
 package com.projects.nicola.oralcarefortheelderly;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,5 +19,13 @@ public class cavities extends AppCompatActivity {
 
 
     }
+
+    public void gotoNewActivity(View view)
+    {
+        Intent intent = new Intent(this, testNewActivity.class);
+        startActivity(intent);
+    }
+
+
 
 }

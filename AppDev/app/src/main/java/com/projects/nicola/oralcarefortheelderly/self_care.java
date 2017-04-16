@@ -6,20 +6,18 @@ import android.os.Bundle;
  import android.support.v7.widget.Toolbar;
  import android.view.View;
 
-public class testNewActivity extends AppCompatActivity {
+public class self_care extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test_new);
-
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        setContentView(R.layout.self_care);
+        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
     }
 
-    public void gotoCavity(View view)
+    public void gotoNatural(View view)
     {
-        Intent newIntent = new Intent(this, cavities.class);
+        Intent newIntent = new Intent(this, NaturalTeeth.class);
         startActivity(newIntent);
     }
 }

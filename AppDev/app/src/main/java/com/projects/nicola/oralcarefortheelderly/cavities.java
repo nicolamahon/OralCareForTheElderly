@@ -26,7 +26,7 @@ public class cavities extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent i = new Intent(getApplicationContext(), testNewActivity.class);
+                Intent i = new Intent(getApplicationContext(), self_care.class);
                 startActivity(i);
             }
         }

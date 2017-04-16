@@ -13,7 +13,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
-        android:text="@string/button" />
+        android:text="@string/button"
+        android:onClick="gotoSelfCare"/>
 
     <Button
         android:id="@+id/B"
@@ -24,7 +25,7 @@
         android:layout_below="@+id/A"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="gotoCavity"/>
+        android:onClick="gotoPatientCare"/>
 
     <Button
         android:id="@+id/C"
@@ -33,7 +34,8 @@
         android:layout_below="@+id/B"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="@string/c" />
+        android:text="@string/c"
+        android:onClick="gotoLogin"/>
 
     <Button
         android:id="@+id/D"
@@ -42,5 +44,6 @@
         android:layout_below="@+id/C"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="@string/d" />
+        android:text="@string/d"
+        android:onClick="gotoInformation"/>
 </RelativeLayout>

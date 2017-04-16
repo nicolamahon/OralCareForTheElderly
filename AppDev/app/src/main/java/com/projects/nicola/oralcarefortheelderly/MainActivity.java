@@ -13,9 +13,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void gotoCavity(View view)
+    public void gotoSelfCare(View view)
     {
-        Intent intent = new Intent(this, NaturalTeeth.class);
+        Intent intent = new Intent(this, self_care.class);
         startActivity(intent);
     }
 }

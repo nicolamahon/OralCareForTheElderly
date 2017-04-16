@@ -11,4 +11,9 @@
     <string name="c">Login</string>
     <string name="d">Information</string>
     <string name="title_activity_natural_teeth">Natural Teeth</string>
+    <string name="natural_teeth">Natural Teeth</string>
+    <string name="denture_care">Denture Care</string>
+    <string name="mouth_care">Mouth Care</string>
+    <string name="difficulty_with_mouth_opening">Difficulty with Mouth Opening</string>
+    <string name="dry_mouth">Dry Mouth</string>
 </resources>

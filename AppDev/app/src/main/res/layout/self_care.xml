@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projects.nicola.oralcarefortheelderly.self_care">
+
+    <Button
+        android:id="@+id/naturalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/natural_teeth"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="gotoNatural"/>
+
+    <Button
+        android:id="@+id/denturecareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="38dp"
+        android:text="@string/denture_care"
+        android:layout_marginEnd="38dp"
+        android:layout_alignBaseline="@+id/naturalButton"
+        android:layout_alignBottom="@+id/naturalButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/mouthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mouth_care"
+        android:layout_below="@+id/denturecareButton"
+        android:layout_alignLeft="@+id/naturalButton"
+        android:layout_alignStart="@+id/naturalButton"
+        android:layout_marginTop="23dp"
+        android:layout_alignRight="@+id/naturalButton"
+        android:layout_alignEnd="@+id/naturalButton" />
+
+    <Button
+        android:id="@+id/DifficultyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/difficulty_with_mouth_opening"
+        android:layout_below="@+id/dryButton"
+        android:layout_marginTop="31dp"
+        android:layout_alignRight="@+id/dryButton"
+        android:layout_alignEnd="@+id/dryButton"
+        android:layout_alignLeft="@+id/oralButton"
+        android:layout_alignStart="@+id/oralButton" />
+
+    <Button
+        android:id="@+id/dryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dry_mouth"
+        android:layout_alignBaseline="@+id/oralButton"
+        android:layout_alignBottom="@+id/oralButton"
+        android:layout_alignRight="@+id/dexButton"
+        android:layout_alignEnd="@+id/dexButton"
+        android:layout_alignLeft="@+id/dexButton"
+        android:layout_alignStart="@+id/dexButton" />
+
+    <Button
+        android:id="@+id/dexButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/dex_issues"
+        android:layout_alignBaseline="@+id/mouthButton"
+        android:layout_alignBottom="@+id/mouthButton"
+        android:layout_alignLeft="@+id/denturecareButton"
+        android:layout_alignStart="@+id/denturecareButton" />
+
+    <Button
+        android:id="@+id/oralButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/oral_health"
+        android:layout_below="@+id/mouthButton"
+        android:layout_alignLeft="@+id/mouthButton"
+        android:layout_alignStart="@+id/mouthButton"
+        android:layout_marginTop="25dp"
+        android:layout_alignRight="@+id/mouthButton"
+        android:layout_alignEnd="@+id/mouthButton" />
+
+    <Button
+        android:id="@+id/oralCareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/why_important"
+        android:layout_below="@+id/DifficultyButton"
+        android:layout_alignLeft="@+id/DifficultyButton"
+        android:layout_alignStart="@+id/DifficultyButton"
+        android:layout_marginTop="31dp"
+        android:layout_alignRight="@+id/DifficultyButton"
+        android:layout_alignEnd="@+id/DifficultyButton" />
+</RelativeLayout>

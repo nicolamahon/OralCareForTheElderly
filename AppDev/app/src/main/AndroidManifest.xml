@@ -11,14 +11,14 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".NaturalTeeth"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_natural_teeth"
-           >
-
+            android:parentActivityName=".self_care"
+            android:label="@string/title_activity_natural_teeth" >
         </activity>
+
         <activity
             android:name=".cavities"
             android:parentActivityName=".NaturalTeeth" />
+
         <activity android:name=".MainActivity"
             android:label="Main Menu">
             <intent-filter>
@@ -26,6 +26,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".self_care"
+            android:label="Self Care Menu"
+            android:parentActivityName=".MainActivity">
+
         </activity>
     </application>
 

@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void gotoCavity(View view)
     {
-        Intent intent = new Intent(this, cavities.class);
+        Intent intent = new Intent(this, NaturalTeeth.class);
         startActivity(intent);
     }
 }

@@ -8,4 +8,15 @@
     tools:context="com.projects.nicola.oralcarefortheelderly.NaturalTeeth"
     tools:showIn="@layout/activity_natural_teeth">
 
+
+    <Button
+        android:id="@+id/goToCavities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        android:text="Cavities"
+        android:onClick="gotoCavity"
+        />
 </RelativeLayout>

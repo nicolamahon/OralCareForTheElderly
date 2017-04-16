@@ -35,9 +35,9 @@ public class cavities extends AppCompatActivity {
 
     }
 
-    public void gotoNewActivity(View view)
+    public void gotoNatural(View view)
     {
-        Intent intent = new Intent(this, testNewActivity.class);
+        Intent intent = new Intent(this, NaturalTeeth.class);
         startActivity(intent);
     }
 

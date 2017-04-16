@@ -20,4 +20,46 @@ public class self_care extends AppCompatActivity {
         Intent newIntent = new Intent(this, NaturalTeeth.class);
         startActivity(newIntent);
     }
+
+    public void gotoDentureCare(View view)
+    {
+        Intent intent = new Intent(this, DentureCare.class);
+        startActivity(intent);
+    }
+
+    public void gotoMouthCare(View view)
+    {
+        Intent intent = new Intent(this, MouthCare.class);
+        startActivity(intent);
+    }
+
+    public void gotoDifficult(View view)
+    {
+        Intent intent = new Intent(this,MouthOpening.class);
+        startActivity(intent);
+    }
+
+    public void gotoDryMouth(View view)
+    {
+        Intent intent = new Intent(this, DryMouth.class);
+        startActivity(intent);
+    }
+
+    public void gotoDexterity(View view)
+    {
+        Intent intent = new Intent(this, DexterityIssues.class);
+        startActivity(intent);
+    }
+
+    public void gotoOralHealth(View view)
+    {
+        Intent intent = new Intent(this, OralHealth.class);
+        startActivity(intent);
+    }
+
+    public void gotoOralCare(View view)
+    {
+        Intent intent = new Intent(this, WhyOral.class);
+        startActivity(intent);
+    }
 }

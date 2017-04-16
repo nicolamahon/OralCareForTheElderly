@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,14 +22,14 @@
         android:id="@+id/denturecareButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginRight="38dp"
         android:text="@string/denture_care"
         android:layout_marginEnd="38dp"
         android:layout_alignBaseline="@+id/naturalButton"
         android:layout_alignBottom="@+id/naturalButton"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="gotoDentureCare"/>
 
     <Button
         android:id="@+id/mouthButton"
@@ -42,7 +41,8 @@
         android:layout_alignStart="@+id/naturalButton"
         android:layout_marginTop="23dp"
         android:layout_alignRight="@+id/naturalButton"
-        android:layout_alignEnd="@+id/naturalButton" />
+        android:layout_alignEnd="@+id/naturalButton"
+        android:onClick="gotoMouthCare"/>
 
     <Button
         android:id="@+id/DifficultyButton"
@@ -54,7 +54,8 @@
         android:layout_alignRight="@+id/dryButton"
         android:layout_alignEnd="@+id/dryButton"
         android:layout_alignLeft="@+id/oralButton"
-        android:layout_alignStart="@+id/oralButton" />
+        android:layout_alignStart="@+id/oralButton"
+        android:onClick="gotoDifficult"/>
 
     <Button
         android:id="@+id/dryButton"
@@ -66,39 +67,43 @@
         android:layout_alignRight="@+id/dexButton"
         android:layout_alignEnd="@+id/dexButton"
         android:layout_alignLeft="@+id/dexButton"
-        android:layout_alignStart="@+id/dexButton" />
+        android:layout_alignStart="@+id/dexButton"
+        android:onClick="gotoDryMouth"/>
 
     <Button
         android:id="@+id/dexButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+id/dex_issues"
+        android:text="@string/dex_issues"
         android:layout_alignBaseline="@+id/mouthButton"
         android:layout_alignBottom="@+id/mouthButton"
         android:layout_alignLeft="@+id/denturecareButton"
-        android:layout_alignStart="@+id/denturecareButton" />
+        android:layout_alignStart="@+id/denturecareButton"
+        android:onClick="gotoDexterity"/>
 
     <Button
         android:id="@+id/oralButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+id/oral_health"
+        android:text="@string/oral_health"
         android:layout_below="@+id/mouthButton"
         android:layout_alignLeft="@+id/mouthButton"
         android:layout_alignStart="@+id/mouthButton"
         android:layout_marginTop="25dp"
         android:layout_alignRight="@+id/mouthButton"
-        android:layout_alignEnd="@+id/mouthButton" />
+        android:layout_alignEnd="@+id/mouthButton"
+        android:onClick="gotoOralHealth"/>
 
     <Button
         android:id="@+id/oralCareButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+id/why_important"
+        android:text="@string/why_important"
         android:layout_below="@+id/DifficultyButton"
         android:layout_alignLeft="@+id/DifficultyButton"
         android:layout_alignStart="@+id/DifficultyButton"
         android:layout_marginTop="31dp"
         android:layout_alignRight="@+id/DifficultyButton"
-        android:layout_alignEnd="@+id/DifficultyButton" />
+        android:layout_alignEnd="@+id/DifficultyButton"
+        android:onClick="gotoOralCare"/>
 </RelativeLayout>

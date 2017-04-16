@@ -18,4 +18,22 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, self_care.class);
         startActivity(intent);
     }
+
+    public void gotoPatientCare(View view)
+    {
+        Intent intent = new Intent(this, patient_care.class);
+        startActivity(intent);
+    }
+
+    public void gotoLogin(View view)
+    {
+        Intent intent = new Intent(this, login.class);
+        startActivity(intent);
+    }
+
+    public void gotoInformation(View view)
+    {
+        Intent intent = new Intent(this,information.class);
+        startActivity(intent);
+    }
 }

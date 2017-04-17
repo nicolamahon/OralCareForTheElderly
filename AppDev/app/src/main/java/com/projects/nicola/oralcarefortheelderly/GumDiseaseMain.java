@@ -17,10 +17,11 @@ public class GumDiseaseMain extends AppCompatActivity {
 
     public void gotoGumSigns(View view)
     {
-        Intent newIntent = new Intent(this, Hygiene.class);
+        Intent newIntent = new Intent(this, GumDiseaseSigns.class);
         startActivity(newIntent);
     }
 
+    /////////////////////////////////////////////////// update class name below
     public void gotoGumCauses(View view)
     {
         Intent newIntent = new Intent(this, CareForDenture.class);

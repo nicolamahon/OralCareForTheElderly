@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.projects.nicola.oralcarefortheelderly.GumDiseaseSigns"
+    tools:showIn="@layout/activity_gum_disease_signs">
+
+    <TextView
+        android:id="@+id/GumSignsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="Sign of Gum Disease"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/gum_disease_8"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/GumSignsTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/gumSigns1"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="- Bleeding Gums"
+        />
+    <TextView
+        android:id="@+id/gumSigns2"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/gumSigns1"
+        android:layout_centerHorizontal="true"
+        android:text="- Red, swollen, or tender gums"
+        />
+    <TextView
+        android:id="@+id/gumSigns3"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/gumSigns2"
+        android:layout_centerHorizontal="true"
+        android:text="- Persistent bad breath"
+        />
+    <TextView
+        android:id="@+id/gumSigns4"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/gumSigns3"
+        android:layout_centerHorizontal="true"
+        android:text="- Bad taste in the mouth"
+        />
+    <TextView
+        android:id="@+id/gumSigns5"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/gumSigns4"
+        android:layout_centerHorizontal="true"
+        android:text="- Receding gums"
+        />
+    <TextView
+        android:id="@+id/gumSigns6"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/gumSigns5"
+        android:layout_centerHorizontal="true"
+        android:text="- Formation of deep pockets"
+        />
+    <TextView
+        android:id="@+id/gumSigns7"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/gumSigns6"
+        android:layout_centerHorizontal="true"
+        android:text="- Loose or shifting teeth"
+        />
+
+</RelativeLayout>

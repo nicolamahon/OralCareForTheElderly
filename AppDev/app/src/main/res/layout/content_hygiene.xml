@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.projects.nicola.oralcarefortheelderly.Hygiene"
     tools:showIn="@layout/activity_hygiene">
@@ -19,7 +18,7 @@
         android:text="Denture Hygiene"
         android:textSize="36sp" />
 
-        <TextView
+    <TextView
         android:id="@+id/textView1"
         android:layout_width="320dp"
         android:layout_height="20dp"

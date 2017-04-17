@@ -38,4 +38,5 @@
     <string name="careInfo2">Leave dentures out at least 6 hours per day to allow the gums to breathe - This is usually overnight.</string>
     <string name="careInfo3">Wearing dentures constantly can irritate the gums and harbour bacteria.</string>
     <string name="careInfo4">Dentures that fit poorly can also irritate gums.</string>
+    <string name="title_activity_gum_disease_main">Gum Disease</string>
 </resources>

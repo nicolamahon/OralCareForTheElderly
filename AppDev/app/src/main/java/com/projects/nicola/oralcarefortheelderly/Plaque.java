@@ -11,7 +11,6 @@ public class Plaque extends AppCompatActivity {
         setContentView(R.layout.activity_plaque);
 
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
-
     }
 
 }

@@ -29,4 +29,13 @@
     <string name="care4denture">Care for Dentures</string>
     <string name="title_activity_hygiene">Hygiene</string>
     <string name="title_activity_care_for_denture">CareForDenture</string>
+    <string name="hygieneInfo1">Dentures must be cleaned at least once daily.</string>
+    <string name="hygieneInfo2">Use a denture brush or soft toothbrush and rub off plaque and food particles on teeth including the outside and inside of denture under running water.</string>
+    <string name="hygieneInfo3">Put a towel in the sink to protect dentures from breaking if they fall accidentally or use a plastic bowl.</string>
+    <string name="hygieneInfo4">Denture cleaning tablets can be used but only AFTER cleaning with washing up liquid and warm (hand hot) water.</string>
+    <string name="hygieneInfo5">All denture paste or powder should be removed from the denture each day before applying new denture paste or powder.</string>
+    <string name="careInfo1">Dentures, whether full or partial should not be worn all day.</string>
+    <string name="careInfo2">Leave dentures out at least 6 hours per day to allow the gums to breathe - This is usually overnight.</string>
+    <string name="careInfo3">Wearing dentures constantly can irritate the gums and harbour bacteria.</string>
+    <string name="careInfo4">Dentures that fit poorly can also irritate gums.</string>
 </resources>

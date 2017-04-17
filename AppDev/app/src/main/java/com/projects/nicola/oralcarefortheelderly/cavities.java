@@ -1,13 +1,8 @@
 package com.projects.nicola.oralcarefortheelderly;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.widget.Button;
+
 
 public class cavities extends AppCompatActivity {
 
@@ -35,12 +30,16 @@ public class cavities extends AppCompatActivity {
 
     }
 
+    /*
+    // functionality to allow the user return to previous menu
+    // this is now included by the supportActionBar settings
+
     public void gotoNatural(View view)
     {
         Intent intent = new Intent(this, NaturalTeeth.class);
         startActivity(intent);
     }
-
+    */
 
 
 }

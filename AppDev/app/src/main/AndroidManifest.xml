@@ -4,12 +4,12 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:fullBackupContent="true">
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
@@ -46,31 +46,35 @@
         <activity
             android:name=".DentureCare"
             android:label="@string/denture_care"
-            android:parentActivityName=".self_care"/>
+            android:parentActivityName=".self_care" />
         <activity
             android:name=".MouthCare"
             android:label="@string/mouth_care"
-            android:parentActivityName=".self_care"/>
+            android:parentActivityName=".self_care" />
         <activity
             android:name=".DexterityIssues"
             android:label="@string/dex_issues"
-            android:parentActivityName=".self_care"/>
+            android:parentActivityName=".self_care" />
         <activity
             android:name=".OralHealth"
             android:label="@string/oral_health"
-            android:parentActivityName=".self_care"/>
+            android:parentActivityName=".self_care" />
         <activity
             android:name=".DryMouth"
             android:label="@string/dry_mouth"
-            android:parentActivityName=".self_care"/>
+            android:parentActivityName=".self_care" />
         <activity
             android:name=".MouthOpening"
             android:label="@string/difficulty_with_mouth_opening"
-            android:parentActivityName=".self_care"/>
+            android:parentActivityName=".self_care" />
         <activity
             android:name=".WhyOral"
             android:label="@string/why_important"
-            android:parentActivityName=".self_care"/>
+            android:parentActivityName=".self_care" />
+        <activity
+            android:name=".Plaque"
+            android:label="Plaque"
+            android:parentActivityName=".NaturalTeeth" />
     </application>
 
 </manifest>

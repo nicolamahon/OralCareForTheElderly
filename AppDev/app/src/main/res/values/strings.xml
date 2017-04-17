@@ -19,4 +19,10 @@
     <string name="why_important">Why Oral Care is Important</string>
     <string name="oral_health">Oral Health</string>
     <string name="dex_issues">Dexterity Issues</string>
+    <string name="title_activity_plaque">Plaque</string>
+    <string name="plaque_title">What is Plaque?</string>
+    <string name="plaqueInfo1">Plaque is the most common and serious dental health issue.</string>
+    <string name="plaqueInfo2">It is a soft and sticky film of bacteria from food and sweets.</string>
+    <string name="plaqueInfo3">Hardened plaque is called calculus and holds bacteria in the mouth. It causes damage to the gums and bone that supports the teeth.</string>
+    <string name="plaqueInfo4">It is plaque, not aging, that causes tooth loss!</string>
 </resources>

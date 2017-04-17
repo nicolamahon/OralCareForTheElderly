@@ -11,12 +11,24 @@
 
     <Button
         android:id="@+id/goToCavities"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="117dp"
         android:text="Cavities"
         android:onClick="gotoCavity"
         />
+
+    <Button
+        android:id="@+id/goToPlaque"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Plaque"
+        android:onClick="gotoPlaque"
+        />
+
 </RelativeLayout>

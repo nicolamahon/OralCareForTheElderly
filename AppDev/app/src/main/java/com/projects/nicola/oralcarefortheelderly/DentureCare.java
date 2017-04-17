@@ -16,13 +16,13 @@ public class DentureCare extends AppCompatActivity {
 
     public void gotoHygiene(View view)
     {
-        Intent newIntent = new Intent(this, Hygiene.class);
-        startActivity(newIntent);
+        Intent hygieneIntent = new Intent(this, Hygiene.class);
+        startActivity(hygieneIntent);
     }
 
     public void gotoCareForDent(View view)
     {
-        Intent newIntent = new Intent(this, CareForDenture.class);
-        startActivity(newIntent);
+        Intent careIntent = new Intent(this, CareForDenture.class);
+        startActivity(careIntent);
     }
 }

@@ -25,4 +25,8 @@
     <string name="plaqueInfo2">It is a soft and sticky film of bacteria from food and sweets.</string>
     <string name="plaqueInfo3">Hardened plaque is called calculus and holds bacteria in the mouth. It causes damage to the gums and bone that supports the teeth.</string>
     <string name="plaqueInfo4">It is plaque, not aging, that causes tooth loss!</string>
+    <string name="hygiene">Denture Hygiene</string>
+    <string name="care4denture">Care for Dentures</string>
+    <string name="title_activity_hygiene">Hygiene</string>
+    <string name="title_activity_care_for_denture">CareForDenture</string>
 </resources>

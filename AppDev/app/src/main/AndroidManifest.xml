@@ -1,80 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.projects.nicola.oralcarefortheelderly">
+package="com.projects.nicola.oralcarefortheelderly">
 
-    <application
-        android:allowBackup="true"
-        android:fullBackupContent="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".self_care"
-            android:label="Self Care Menu"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".patient_care"
-            android:label="Patient Care Menu"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".information"
-            android:label="Useful Information"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".login"
-            android:label="Login"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".NaturalTeeth"
-            android:label="@string/title_activity_natural_teeth"
-            android:parentActivityName=".self_care" />
-        <activity
-            android:name=".cavities"
-            android:label="Cavities"
-            android:parentActivityName=".NaturalTeeth" />
-        <activity
-            android:name=".DentureCare"
-            android:label="@string/denture_care"
-            android:parentActivityName=".self_care" />
-        <activity
-            android:name=".MouthCare"
-            android:label="@string/mouth_care"
-            android:parentActivityName=".self_care" />
-        <activity
-            android:name=".DexterityIssues"
-            android:label="@string/dex_issues"
-            android:parentActivityName=".self_care" />
-        <activity
-            android:name=".OralHealth"
-            android:label="@string/oral_health"
-            android:parentActivityName=".self_care" />
-        <activity
-            android:name=".DryMouth"
-            android:label="@string/dry_mouth"
-            android:parentActivityName=".self_care" />
-        <activity
-            android:name=".MouthOpening"
-            android:label="@string/difficulty_with_mouth_opening"
-            android:parentActivityName=".self_care" />
-        <activity
-            android:name=".WhyOral"
-            android:label="@string/why_important"
-            android:parentActivityName=".self_care" />
-        <activity
-            android:name=".Plaque"
-            android:label="Plaque"
-            android:parentActivityName=".NaturalTeeth" />
-    </application>
+<application android:allowBackup="true" android:fullBackupContent="true"
+    android:icon="@mipmap/ic_launcher" android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".MainActivity" android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".self_care" android:label="Self Care Menu"
+        android:parentActivityName=".MainActivity" />
+    <activity android:name=".patient_care" android:label="Patient Care Menu"
+        android:parentActivityName=".MainActivity" />
+    <activity android:name=".information" android:label="Useful Information"
+        android:parentActivityName=".MainActivity" />
+    <activity android:name=".login" android:label="Login"
+        android:parentActivityName=".MainActivity" />
+    <activity android:name=".NaturalTeeth" android:label="@string/title_activity_natural_teeth"
+        android:parentActivityName=".self_care" />
+    <activity android:name=".cavities" android:label="Cavities"
+        android:parentActivityName=".NaturalTeeth" />
+    <activity android:name=".DentureCare" android:label="@string/denture_care"
+        android:parentActivityName=".self_care" />
+    <activity android:name=".MouthCare" android:label="@string/mouth_care"
+        android:parentActivityName=".self_care" />
+    <activity android:name=".DexterityIssues" android:label="@string/dex_issues"
+        android:parentActivityName=".self_care" />
+    <activity android:name=".OralHealth" android:label="@string/oral_health"
+        android:parentActivityName=".self_care" />
+    <activity android:name=".DryMouth" android:label="@string/dry_mouth"
+        android:parentActivityName=".self_care" />
+    <activity android:name=".MouthOpening" android:label="@string/difficulty_with_mouth_opening"
+        android:parentActivityName=".self_care" />
+    <activity android:name=".WhyOral" android:label="@string/why_important"
+        android:parentActivityName=".self_care" />
+    <activity android:name=".Plaque" android:label="Plaque"
+        android:parentActivityName=".NaturalTeeth" />
+    <activity android:name=".Hygiene" android:label="@string/hygiene"
+        android:parentActivityName=".DentureCare" />
+    <activity android:name=".CareForDenture" android:label="@string/care4denture"
+        android:parentActivityName=".DentureCare" />
+</application>
 
 </manifest>

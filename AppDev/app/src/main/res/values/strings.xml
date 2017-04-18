@@ -40,4 +40,7 @@
     <string name="careInfo4">Dentures that fit poorly can also irritate gums.</string>
     <string name="title_activity_gum_disease_main">Gum Disease</string>
     <string name="title_activity_gum_disease_signs">Gum Disease Signs</string>
+    <string name="title_activity_gum_disease_causes">Gum Disease Causes</string>
+    <string name="illnesses"><b>- Illnesses</b></string>
+    <string name="ilnessessInfo">may affect the condition of the gums.</string>
 </resources>

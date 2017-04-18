@@ -21,10 +21,10 @@ public class GumDiseaseMain extends AppCompatActivity {
         startActivity(newIntent);
     }
 
-    /////////////////////////////////////////////////// update class name below
+
     public void gotoGumCauses(View view)
     {
-        Intent newIntent = new Intent(this, CareForDenture.class);
+        Intent newIntent = new Intent(this, GumDiseaseCauses.class);
         startActivity(newIntent);
     }
 

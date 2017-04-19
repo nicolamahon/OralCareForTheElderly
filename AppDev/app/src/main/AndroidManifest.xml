@@ -67,6 +67,10 @@
             android:label="@string/dry_mouth"
             android:parentActivityName=".self_care" />
         <activity
+            android:name=".DryMouthRemedies"
+            android:label="Dry Mouth Remedies"
+            android:parentActivityName=".DryMouth" />
+        <activity
             android:name=".MouthOpening"
             android:label="@string/difficulty_with_mouth_opening"
             android:parentActivityName=".self_care" />

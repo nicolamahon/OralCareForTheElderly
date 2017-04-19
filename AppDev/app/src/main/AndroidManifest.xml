@@ -95,6 +95,10 @@
             android:name=".GumDiseaseCauses"
             android:label="@string/title_activity_gum_disease_causes"
             android:parentActivityName=".GumDiseaseMain" />
+        <activity
+            android:name=".DryMouthRemedies"
+            android:label="@string/title_activity_dry_mouth_remedies"
+            android:parentActivityName=".DryMouth"/>
     </application>
 
 </manifest>

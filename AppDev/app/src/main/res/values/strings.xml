@@ -51,9 +51,4 @@
     <string name="dryMouthInfo3">- Many of the persons you care for are taking these medications and will suffer from dry mouth.</string>
     <string name="dryMouthInfo4">- Dry mouth can increase risk of dental cavities, gum disease and infection.</string>
     <string name="dryMouthInfo5">- Dry mouth can also make it hard to eat, swallow, taste, speak and can cause dentures not to fit properly.</string>
-    <string name="title_activity_login_register">login_register</string>
-    <string name="title_activity_logged_in">LoggedIn</string>
-    <string name="login_register">Login or Register</string>
-    <string name="logged_in">Logged In</string>
-    <string name="empty_string" />
 </resources>

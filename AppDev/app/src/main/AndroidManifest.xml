@@ -32,6 +32,10 @@
             android:label="Useful Information"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".login"
+            android:label="Login"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".NaturalTeeth"
             android:label="@string/title_activity_natural_teeth"
             android:parentActivityName=".self_care" />
@@ -91,18 +95,6 @@
             android:name=".GumDiseaseCauses"
             android:label="@string/title_activity_gum_disease_causes"
             android:parentActivityName=".GumDiseaseMain" />
-        <activity
-            android:name=".login_register"
-            android:label="@string/login_register"
-            android:parentActivityName=".MainActivity"
-             />
-        <activity
-            android:name=".LoggedIn"
-            android:label="@string/logged_in"
-            android:parentActivityName=".login_register"
-            >
-
-        </activity>
     </application>
 
 </manifest>

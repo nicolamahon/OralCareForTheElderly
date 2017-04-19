@@ -32,9 +32,12 @@
             android:label="Useful Information"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".login"
+            android:name=".login_register"
             android:label="Login"
             android:parentActivityName=".MainActivity" />
+        <activity android:name=".LoggedIn"
+            android:label="Log in succcesful"
+            android:parentActivityName=".login_register"/>
         <activity
             android:name=".NaturalTeeth"
             android:label="@string/title_activity_natural_teeth"
@@ -98,7 +101,7 @@
         <activity
             android:name=".Register"
             android:label="@string/title_activity_register"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:parentActivityName=".login_register"/>
     </application>
 
 </manifest>

@@ -89,7 +89,7 @@
         android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/pass1"
+        android:id="@+id/pass1_registered"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/Pass_register"
@@ -103,15 +103,15 @@
         android:id="@+id/Pass2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/pass1"
-        android:layout_alignStart="@+id/pass1"
-        android:layout_below="@+id/pass1"
+        android:layout_alignLeft="@+id/pass1_registered"
+        android:layout_alignStart="@+id/pass1_registered"
+        android:layout_below="@+id/pass1_registered"
         android:layout_marginTop="17dp"
         android:text="Confirm Password"
         android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/pass2"
+        android:id="@+id/pass2_registered"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/Pass2"
@@ -125,12 +125,13 @@
         android:id="@+id/Signup_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/pass2"
+        android:layout_below="@+id/pass2_registered"
         android:layout_marginLeft="13dp"
         android:layout_marginStart="13dp"
         android:layout_marginTop="16dp"
-        android:layout_toEndOf="@+id/pass2"
-        android:layout_toRightOf="@+id/pass2"
+        android:layout_toEndOf="@+id/pass2_registered"
+        android:layout_toRightOf="@+id/pass2_registered"
+        android:onClick="confirmRegister"
         android:text="Register"
         android:textSize="24sp" />
 </RelativeLayout>

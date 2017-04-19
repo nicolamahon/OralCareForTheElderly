@@ -1,6 +1,8 @@
 package com.projects.nicola.oralcarefortheelderly;
 
+import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -35,7 +37,39 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     public void insertContact(Contact entry)
     {
+        db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_NAME, entry.getName());
+        values.put(COLUMN_EMAIL, entry.getEmail());
+        values.put(COLUMN_UNAME,entry.getUname());
+        values.put(COLUMN_PASS, entry.getPass());
 
+        db.insert(TABLE_NAME,null,values);
+
+    }
+
+    public String searchPass( String uname)
+    {
+        db=this.getReadableDatabase();
+        String query = "select uname, pass from"+TABLE_NAME;
+        Cursor cursor = db.rawQuery(query, null);
+
+        String username, password;
+
+        password = "Not Found!";
+
+        if(cursor.moveToFirst())
+        {
+            do {
+                username = cursor.getString(0);
+                if (username.equals(uname))
+                {
+                    password=cursor.getString(1);
+                    break;
+                }
+            }while (cursor.moveToNext());
+        }
+        return password;
     }
 
     @Override

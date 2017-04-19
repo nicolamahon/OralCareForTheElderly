@@ -41,7 +41,7 @@
             android:parentActivityName=".self_care" />
         <activity
             android:name=".cavities"
-            android:label="Cavities"
+            android:label="@string/cavitiesTitle"
             android:parentActivityName=".NaturalTeeth" />
         <activity
             android:name=".DentureCare"
@@ -73,7 +73,7 @@
             android:parentActivityName=".self_care" />
         <activity
             android:name=".Plaque"
-            android:label="Plaque"
+            android:label="@string/plaqueTitle"
             android:parentActivityName=".NaturalTeeth" />
         <activity
             android:name=".Hygiene"

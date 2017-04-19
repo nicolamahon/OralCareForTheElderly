@@ -43,4 +43,12 @@
     <string name="title_activity_gum_disease_causes">Gum Disease Causes</string>
     <string name="illnesses"><b>- Illnesses</b></string>
     <string name="ilnessessInfo">may affect the condition of the gums.</string>
+    <string name="cavitiesTitle">Cavities</string>
+    <string name="plaqueTitle">Plaque</string>
+    <string name="dryMouthHeader">Understanding Problems associated with Dry Mouth</string>
+    <string name="dryMouthInfo1">- Dry mouth is not a normal part of aging.</string>
+    <string name="dryMouthInfo2">- Many common medications reduce the production of saliva.</string>
+    <string name="dryMouthInfo3">- Many of the persons you care for are taking these medications and will suffer from dry mouth.</string>
+    <string name="dryMouthInfo4">- Dry mouth can increase risk of dental cavities, gum disease and infection.</string>
+    <string name="dryMouthInfo5">- Dry mouth can also make it hard to eat, swallow, taste, speak and can cause dentures not to fit properly.</string>
 </resources>

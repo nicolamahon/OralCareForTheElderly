@@ -20,7 +20,7 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="23dp"
         android:text="Name"
-        android:textSize="30sp" />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/Name_registered"
@@ -31,7 +31,8 @@
         android:layout_below="@+id/Name_Register"
         android:ems="10"
         android:hint="Enter Name"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/Email_Register"
@@ -42,7 +43,7 @@
         android:layout_below="@+id/Name_registered"
         android:layout_marginTop="17dp"
         android:text="Email"
-        android:textSize="30sp" />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/Email_registered"
@@ -64,7 +65,7 @@
         android:layout_below="@+id/Email_registered"
         android:layout_marginTop="17dp"
         android:text="Username"
-        android:textSize="30sp" />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/Username_registered"
@@ -86,7 +87,7 @@
         android:layout_below="@+id/Username_registered"
         android:layout_marginTop="17dp"
         android:text="Password"
-        android:textSize="30sp" />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/pass1_registered"
@@ -108,7 +109,7 @@
         android:layout_below="@+id/pass1_registered"
         android:layout_marginTop="17dp"
         android:text="Confirm Password"
-        android:textSize="30sp" />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/pass2_registered"
@@ -133,5 +134,5 @@
         android:layout_toRightOf="@+id/pass2_registered"
         android:onClick="confirmRegister"
         android:text="Register"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 </RelativeLayout>

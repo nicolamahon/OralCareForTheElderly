@@ -20,7 +20,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String COLUMN_EMAIL = "email";
     private static final String COLUMN_UNAME = "uname";
     private static final String COLUMN_PASS = "pass";
-    private static final String TABLE_CREATE = "CREATE TABLE contacts (id integer PRIMARY KEY NOT NULL AUTO_INCREMENT,"+
+    private static final String TABLE_CREATE = "CREATE TABLE contacts (id integer PRIMARY KEY NOT NULL ,"+
             "name text not null, email text not null, uname text not null, pass text not null); ";
     SQLiteDatabase db;
 
@@ -39,6 +39,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     {
         db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
+
+        String query = "SELECT * from"+TABLE_NAME;
+        Cursor c = db.rawQuery(query, null);
+        int count = c.getCount();
+
+        values.put(COLUMN_ID,count);
         values.put(COLUMN_NAME, entry.getName());
         values.put(COLUMN_EMAIL, entry.getEmail());
         values.put(COLUMN_UNAME,entry.getUname());

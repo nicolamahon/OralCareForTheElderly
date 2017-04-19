@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.projects.nicola.oralcarefortheelderly.login_register"
+    tools:showIn="@layout/activity_login_register">
+
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="45dp"
+        android:text="Username :"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ETUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Username"
+        android:layout_alignStart="@+id/Username"
+        android:layout_below="@+id/Username"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/TVPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ETUsername"
+        android:layout_alignStart="@+id/ETUsername"
+        android:layout_below="@+id/ETUsername"
+        android:layout_marginTop="48dp"
+        android:text="Password :"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ETPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TVPassword"
+        android:layout_alignStart="@+id/TVPassword"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Login_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ETPassword"
+        android:layout_alignStart="@+id/ETPassword"
+        android:layout_below="@+id/ETPassword"
+        android:layout_marginTop="34dp"
+        android:onClick="gotoLoggedIn"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/Register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Login_Button"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_toEndOf="@+id/Username"
+        android:layout_toRightOf="@+id/Username"
+        android:text="Register" />
+
+</RelativeLayout>

@@ -95,6 +95,10 @@
             android:name=".GumDiseaseCauses"
             android:label="@string/title_activity_gum_disease_causes"
             android:parentActivityName=".GumDiseaseMain" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

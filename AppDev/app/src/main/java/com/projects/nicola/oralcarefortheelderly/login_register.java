@@ -29,5 +29,11 @@ public class login_register extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void gotoRegister(View view)
+    {
+        Intent intent = new Intent(this, Register.class);
+        startActivity(intent);
+    }
+
 
 }

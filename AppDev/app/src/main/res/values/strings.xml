@@ -60,4 +60,6 @@
     <string name="mouthWashBullet3">● Maintaining a pH which helps prevent plaque formation</string>
     <string name="mouthWashBullet4">● Refreshing and moistening the mouth</string>
     <string name="mouthWashHead">Bioxtra Mouthwash (250ml)(BIOX3)</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">Logout</string>
 </resources>

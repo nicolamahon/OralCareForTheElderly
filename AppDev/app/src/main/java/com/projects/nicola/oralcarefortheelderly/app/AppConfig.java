@@ -1,8 +1,5 @@
 package com.projects.nicola.oralcarefortheelderly.app;
 
-/**
- * Created by Aaron on 20/04/2017.
- */
 
 public class AppConfig {
     // Server user login url

@@ -63,7 +63,7 @@ public class Register extends Activity {
         // Check if user is already logged in or not
         if (session.isLoggedIn()) {
             // User is already logged in. Take him to main activity
-            Intent intent = new Intent(Register.this, MainActivity.class);
+            Intent intent = new Intent(Register.this, LoggedIn.class);
             startActivity(intent);
             finish();
         }
@@ -77,20 +77,13 @@ public class Register extends Activity {
                 String password1 = inputPassword1.getText().toString().trim();
                 String password2 = inputPassword2.getText().toString().trim();
 
-                if(!password1.equals(password2))
-                {
-                    Toast.makeText(getApplicationContext(),"Passwords do not match", Toast.LENGTH_LONG).show();
-                }
-                else
-                {
                     if (!name.isEmpty() && !email.isEmpty() && !password1.isEmpty())
                     {
                         registerUser(name, email, username, password1);
                     }
                     else {
                         Toast.makeText(getApplicationContext(),"Please enter your details!", Toast.LENGTH_LONG).show();
-                    }
-                }
+                        }
             }
         });
 

@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import com.projects.nicola.oralcarefortheelderly.R;
 
 public class LoggedIn extends Activity {
 
@@ -24,7 +25,7 @@ public class LoggedIn extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_logged_in);
+        setContentView(R.layout.content_logged_in);
 
         txtName = (TextView) findViewById(R.id.name);
         txtEmail = (TextView) findViewById(R.id.email);

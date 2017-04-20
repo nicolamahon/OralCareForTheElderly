@@ -33,7 +33,7 @@
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:layout_below="@+id/header"
@@ -42,7 +42,6 @@
             android:id="@+id/Username"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-
             android:text="Username :"
             android:textSize="24sp" />
 
@@ -50,11 +49,10 @@
             android:id="@+id/ETUsername"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:hint="Enter Username"
             android:inputType="textPersonName"
             android:layout_marginTop="5dip"
-            android:layout_marginBottom="20dip"
+            android:layout_marginBottom="10dip"
             android:maxLines="1"
             />
 
@@ -83,7 +81,6 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
-            android:onClick="gotoLoggedIn"
             android:text="Login" />
 
         <Button
@@ -92,7 +89,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dip"
             android:layout_marginBottom="50dip"
-            android:onClick="gotoRegister"
             android:gravity="center"
             android:text="New to DentalTech? Register here"
             android:textSize="15dip"/>

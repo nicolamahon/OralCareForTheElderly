@@ -53,6 +53,7 @@ public class Register extends AppCompatActivity {
 
             helper.insertContact(entry);
         }
+        finish();
     }
 }
 

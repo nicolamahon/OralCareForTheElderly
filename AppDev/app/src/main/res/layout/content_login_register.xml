@@ -81,7 +81,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
-            android:text="Login" />
+            android:text="Login"
+            android:onClick="onLogin"/>
 
         <Button
             android:id="@+id/Register_button"
@@ -91,7 +92,8 @@
             android:layout_marginBottom="50dip"
             android:gravity="center"
             android:text="New to DentalTech? Register here"
-            android:textSize="15dip"/>
+            android:textSize="15dip"
+            android:onClick="gotoRegister"/>
 
         </LinearLayout>
 

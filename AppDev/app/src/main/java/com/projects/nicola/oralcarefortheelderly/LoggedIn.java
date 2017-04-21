@@ -44,8 +44,8 @@ public class LoggedIn extends Activity {
         // Fetching user details from sqlite
         HashMap<String, String> user = db.getUserDetails();
 
-        String name = user.get("name");
-        String email = user.get("email");
+        String name = user.get("Name");
+        String email = user.get("Email");
 
         // Displaying the user details on the screen
         txtName.setText(name);

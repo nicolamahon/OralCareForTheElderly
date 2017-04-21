@@ -131,7 +131,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
-            android:onClick="confirmRegister"
+            android:onClick="onRegister"
             android:text="Register"
             android:textSize="18sp" />
         </LinearLayout>

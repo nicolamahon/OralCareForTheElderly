@@ -1,49 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.projects.nicola.oralcarefortheelderly.MainActivity">
 
-    <Button
-        android:id="@+id/A"
-        android:layout_width="match_parent"
+    <RelativeLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp"
-        android:text="@string/button"
-        android:onClick="gotoSelfCare"/>
+        android:background="#ffffff">
+        <!--Header-->
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/header"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip">
+            <!--LOGO-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/logo" />
+            <!-- END LOGO -->
+        </LinearLayout>
 
-    <Button
-        android:id="@+id/B"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="@string/b"
-        android:layout_below="@+id/A"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="gotoPatientCare"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:orientation="vertical"
+            android:padding="10dp">
 
-    <Button
-        android:id="@+id/C"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/B"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="@string/c"
-        android:onClick="gotoLogin"/>
+            <Button
+                android:id="@+id/A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="gotoSelfCare"
+                android:text="@string/button"
+                android:textSize="25sp"/>
 
-    <Button
-        android:id="@+id/D"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/C"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="@string/d"
-        android:onClick="gotoInformation"/>
-</RelativeLayout>
+            <Button
+                android:id="@+id/B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:onClick="gotoPatientCare"
+                android:text="@string/b"
+                android:textSize="25sp"
+                />
+
+            <Button
+                android:id="@+id/C"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:onClick="gotoLogin"
+                android:text="@string/c"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:onClick="gotoInformation"
+                android:text="@string/d"
+                android:textSize="25sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

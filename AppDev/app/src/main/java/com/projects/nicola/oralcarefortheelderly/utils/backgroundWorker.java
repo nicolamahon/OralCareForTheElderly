@@ -2,7 +2,11 @@ package com.projects.nicola.oralcarefortheelderly.utils;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
+import android.widget.Toast;
+
+import com.projects.nicola.oralcarefortheelderly.MainActivity;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -27,6 +31,7 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
     AlertDialog alertDialog;
 
     public backgroundWorker(Context ctx) {
+
         context = ctx;
     }
 
@@ -116,7 +121,7 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
                 inputStream.close();
                 httpURLConnection.disconnect();
 
-                return result;
+                return "Registered";
 
             } catch (MalformedURLException e) {
                 e.printStackTrace();
@@ -139,8 +144,21 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
 
     @Override
     protected void onPostExecute(String result) {
-        alertDialog.setMessage(result);
-        alertDialog.show();
+        if(result == null)
+        {
+            Toast.makeText(context, "Please Enter your Correct Username and Password", Toast.LENGTH_LONG).show();
+        }
+        else if(result.equals("Registered"))
+        {
+            Toast.makeText(context, result, Toast.LENGTH_LONG).show();
+        }
+        else if(result.contains("Welcome"))
+        {
+            Intent i = new Intent(context,MainActivity.class);
+            context.startActivity(i);
+            alertDialog.setMessage(result);
+            alertDialog.show();
+        }
     }
 
     @Override

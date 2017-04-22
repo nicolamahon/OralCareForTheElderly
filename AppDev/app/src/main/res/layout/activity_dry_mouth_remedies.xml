@@ -5,7 +5,19 @@
     android:layout_height="match_parent"
     tools:context="com.projects.nicola.oralcarefortheelderly.DryMouthRemedies">
 
+    <!--
+    <include layout="@layout/page_fragment_layout"
+        android:id="@+id/include" />
+    -->
+
     <include layout="@layout/content_dry_mouth_remedies"
         android:id="@+id/include" />
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_height="500dp"
+        android:layout_width="match_parent"
+        android:id="@+id/view_pager"
+        />
 
 </android.support.design.widget.CoordinatorLayout>

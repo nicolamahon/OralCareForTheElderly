@@ -31,7 +31,7 @@ public class PageFragment extends Fragment {
         Bundle bundle = getArguments();
         //String message = Integer.toString(bundle.getInt("count"));
 
-        String message = bundle.getString("oralB");
+        String message = bundle.getString("dryMouth");
         //textView.setText("This is the "+message+" Swipe View Page...");
         textView.setText(message);
         return view;

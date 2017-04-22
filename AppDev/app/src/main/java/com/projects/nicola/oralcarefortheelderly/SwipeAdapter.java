@@ -21,13 +21,13 @@ public class SwipeAdapter extends FragmentStatePagerAdapter {
         // bundle.putInt("count", i+1);
         //bundle.putString("oralB", (.getString(R.string.oralB));
         if (i == 0) {
-            bundle.putString("oralB", "Oralbalance© long lasting lubricant relieves, soothes and protects dry mouth tissues against dry discomfort, minor irritations, and burning sensations.");
+            bundle.putString("dryMouth", "Oralbalance© long lasting lubricant relieves, soothes and protects dry mouth tissues against dry discomfort, minor irritations, and burning sensations.");
         } else if (i == 1) {
-            bundle.putString("oralB", "Some test text 1");
+            bundle.putString("dryMouth", "Regular Water");
         } else if (i == 2) {
-            bundle.putString("oralB", "Some test text 2");
+            bundle.putString("dryMouth", "Sugar-Free Sweets");
         } else if (i == 3) {
-            bundle.putString("oralB", "Some test text 3");
+            bundle.putString("dryMouth", "Bioxtra Mouthwash (250ml)(BIOX3)");
         }
 
         fragment.setArguments(bundle);

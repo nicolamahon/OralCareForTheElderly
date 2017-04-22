@@ -29,8 +29,11 @@ public class PageFragment extends Fragment {
         View view = inflater.inflate(R.layout.page_fragment_layout, container, false);
         textView = (TextView)view.findViewById(R.id.oralBalanceInfo);
         Bundle bundle = getArguments();
-        String message = Integer.toString(bundle.getInt("count"));
-        textView.setText("This is the "+message+" Swipe View Page...");
+        //String message = Integer.toString(bundle.getInt("count"));
+
+        String message = bundle.getString("oralB");
+        //textView.setText("This is the "+message+" Swipe View Page...");
+        textView.setText(message);
         return view;
     }
 

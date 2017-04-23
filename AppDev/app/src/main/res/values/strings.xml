@@ -78,4 +78,19 @@
     <string name="gumDiseaseSignsInfo">● Bleeding Gums\n● Red, swollen, or tender gums\n● Persistent bad breath\n● Bad taste in the mouth\n● Receding gums\n● Formation of deep pockets\n● Loose or shifting teeth</string>
     <string name="gumDiseaseCausesInfo">► Illnesses may affect the condition of the gums.\n► Medications can affect oral health.\n► Bad habits such as smoking, make it harder for gum tissue to repair itself.\n► Poor oral hygiene habits.\n► Family history of dental disease.</string>
 
+    <string name="elec_brush_head">Electric Toothbrush</string>
+    <string name="collis_head">Collis Curve Toothbrush</string>
+    <string name="floss_head">Floss Holders</string>
+    <string name="interdental_head">Inter Dental Brushes</string>
+    <string name="handle_grips_head">Handle Grips</string>
+    <string name="three_way_head">Dr Barmans 3-Way Toothbrush</string>
+
+    <string name="dexterityMain">Fine motor skill (or dexterity) is the coordination of small muscles, in movements—usually involving the synchronization of hands and fingers—with the eyes.\n\nThe following are some user friendly hygiene aids that can be of help in cases where there are dexterity issues.</string>
+    <string name="elec_brush">Electric toothbrushes have larger handles that can be gripped more easily by persons with physical impairments.\n\nThey are also easier for caregivers to use when cleaning someone else’s teeth.</string>
+    <string name="collis">The Collis Curve toothbrush is designed with three rows of bristles that can clean the front, back, and top surfaces of teeth at the same time.\n\nThis brush may be easier for caregivers to use and also for older persons that have limited movement in their fingers and hands.</string>
+    <string name="floss">Flossing can be difficult to do even for those of us that don’t have any physical or cognitive impairments.\n\nFor more control you could try holders that come with long handles.\n\nThis dental aid can be very helpful for caregivers and among older persons who have dexterity problems.</string>
+    <string name="interdental">Inter Dental-brushes are little toothbrushes and come in a variety of sizes.\n\nThese are especially good when there are spaces between teeth.\n\nPiksters are the interdental brushes we recommend as they have a longer handle than other varieties.</string>
+    <string name="handle_grips">2 or 3 of these on a toothbrush can help those with  manual Dexterity issues.</string>
+    <string name="three_way">Ideal as, like the collis curve, you can clean font back and top of teeth at the same time.</string>
+
 </resources>

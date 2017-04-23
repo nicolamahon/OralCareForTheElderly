@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projects.nicola.oralcarefortheelderly.DexterityIssues">
+
+
+    <TextView
+        android:id="@+id/dexHead"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="dexHead"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp" />
+
+    <TextView
+        android:id="@+id/dexInfo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="dexInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="290dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/dexIMGs"
+        android:src="@drawable/logo"
+        android:contentDescription="test"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/image_count_dexterity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:text="@string/image_count"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

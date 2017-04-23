@@ -12,7 +12,7 @@ import android.widget.TextView;
  * Created by Nicola on 2017-04-23.
  */
 
-public class CustomSwipeAdapter extends PagerAdapter {
+public class RemediesSwipeAdapter extends PagerAdapter {
 
     private int[] image_resources = {R.drawable.oralbalance_13, R.drawable.water_13, R.drawable.sweets_13, R.drawable.mouthwash_13};
     private int[] dryMouthHeader_strings = {R.string.oralBalanceData, R.string.water_glass, R.string.sweets, R.string.mouthWashHead};
@@ -20,7 +20,7 @@ public class CustomSwipeAdapter extends PagerAdapter {
     private Context ctx;
     private LayoutInflater layoutInflater;
 
-    public CustomSwipeAdapter(Context ctx)
+    public RemediesSwipeAdapter(Context ctx)
     {
         this.ctx = ctx;
     }

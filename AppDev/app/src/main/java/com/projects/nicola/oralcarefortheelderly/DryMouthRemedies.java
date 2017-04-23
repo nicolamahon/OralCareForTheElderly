@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 public class DryMouthRemedies extends AppCompatActivity {
 
     ViewPager viewPager;
-    CustomSwipeAdapter adapter;
+    RemediesSwipeAdapter adapter;
 
 
     @Override
@@ -16,7 +16,7 @@ public class DryMouthRemedies extends AppCompatActivity {
         setContentView(R.layout.activity_dry_mouth_remedies);
 
         viewPager = (ViewPager)findViewById(R.id.view_pager);
-        adapter = new CustomSwipeAdapter(this);
+        adapter = new RemediesSwipeAdapter(this);
         viewPager.setAdapter(adapter);
 
     }

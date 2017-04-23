@@ -39,7 +39,7 @@ public class CustomSwipeAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int position)
     {
         layoutInflater = (LayoutInflater)ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View item_view = layoutInflater.inflate(R.layout.page_fragment_layout, container, false);
+        View item_view = layoutInflater.inflate(R.layout.remedies_swipe_layout, container, false);
 
         ImageView imageView = (ImageView)item_view.findViewById(R.id.dryMouthIMGs);
         TextView textView1 = (TextView)item_view.findViewById(R.id.dryMouthHead);

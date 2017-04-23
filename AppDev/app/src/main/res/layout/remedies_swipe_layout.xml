@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.projects.nicola.oralcarefortheelderly.PageFragment">
+    tools:context="com.projects.nicola.oralcarefortheelderly.DryMouthRemedies">
 
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="20sp"
-        android:text="dryMouthHead"
+        android:text="@string/drymouthhead"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="220dp" />
 
@@ -21,7 +21,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:text="dryMouthInfo"
+        android:text="@string/drymouthinfo"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="290dp" />
@@ -31,6 +31,7 @@
         android:layout_height="200dp"
         android:id="@+id/dryMouthIMGs"
         android:src="@drawable/logo"
+        android:contentDescription="@string/testimg"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
@@ -40,7 +41,7 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:text="@string/image_count"
         android:layout_marginBottom="10dp"
         android:layout_alignParentBottom="true"

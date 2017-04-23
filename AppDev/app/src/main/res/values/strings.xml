@@ -72,4 +72,7 @@
     <string name="enter_password">Enter Password</string>
     <string name="login">Login</string>
     <string name="image_count">image_count</string>
+    <string name="drymouthhead">dryMouthHead</string>
+    <string name="drymouthinfo">dryMouthInfo</string>
+    <string name="testimg">testIMG</string>
 </resources>

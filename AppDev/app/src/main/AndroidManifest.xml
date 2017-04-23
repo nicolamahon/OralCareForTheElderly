@@ -22,7 +22,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuOptions"
-            android:label="Main Menu" />
+            android:label="Main Menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".information"
             android:label="Useful Information"

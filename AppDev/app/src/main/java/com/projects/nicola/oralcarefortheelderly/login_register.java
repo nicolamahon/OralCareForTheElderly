@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.projects.nicola.oralcarefortheelderly.utils.backgroundWorker;
 
@@ -26,9 +27,14 @@ public class login_register extends Activity{
         String username = UsernameET.getText().toString();
         String password = PasswordET.getText().toString();
         String type = "login";
-        backgroundWorker bW = new backgroundWorker(this);
-        bW.execute(type, username,password);
-
+        if(username.isEmpty()||password.isEmpty() )
+        {
+            Toast.makeText(getApplicationContext(),"Please enter the credentials!", Toast.LENGTH_LONG).show();
+        }
+        else {
+            backgroundWorker bW = new backgroundWorker(this);
+            bW.execute(type, username, password);
+        }
     }
 
     public void gotoRegister(View view)

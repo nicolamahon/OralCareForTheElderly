@@ -42,6 +42,7 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
         String register_url = "http://gorgonian-foot.000webhostapp.com/register.php";
         if (type.equals("login")) {
             try {
+
                 String userName = params[1];
                 String passWord = params[2];
                 URL url = new URL(login_url);
@@ -144,11 +145,7 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
 
     @Override
     protected void onPostExecute(String result) {
-        if(result == null)
-        {
-            Toast.makeText(context, "Please Enter your Correct Username and Password", Toast.LENGTH_LONG).show();
-        }
-        else if(result.equals("Registered"))
+        if(result.equals("Registered"))
         {
             Toast.makeText(context, result, Toast.LENGTH_LONG).show();
         }
@@ -156,8 +153,10 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
         {
             Intent i = new Intent(context,MainActivity.class);
             context.startActivity(i);
-            alertDialog.setMessage(result);
-            alertDialog.show();
+        }
+        else
+        {
+            Toast.makeText(context, "Please Enter your Correct Username and Password", Toast.LENGTH_LONG).show();
         }
     }
 

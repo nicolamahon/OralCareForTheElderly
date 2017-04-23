@@ -7,6 +7,7 @@ import android.os.AsyncTask;
 import android.widget.Toast;
 
 import com.projects.nicola.oralcarefortheelderly.MainActivity;
+import com.projects.nicola.oralcarefortheelderly.MenuOptions;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -20,15 +21,11 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 
-/**
- * Created by Aaron on 21/04/2017.
- */
-
 public class backgroundWorker extends AsyncTask<String, Void, String> {
 
 
-    Context context;
-    AlertDialog alertDialog;
+    private Context context;
+    private AlertDialog alertDialog;
 
     public backgroundWorker(Context ctx) {
 
@@ -51,7 +48,7 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
                 httpURLConnection.setDoInput(true);
                 httpURLConnection.setDoOutput(true);
 
-                /** Posting the data to the database**/
+                /* Posting the data to the database**/
                 OutputStream outputStream = httpURLConnection.getOutputStream();
                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
                 String post_data = URLEncoder.encode("userName", "UTF-8") + "=" + URLEncoder.encode(userName, "UTF-8") + "&"
@@ -62,11 +59,11 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
                 bufferedWriter.close();
                 outputStream.close();
 
-                /** Reading the response from the database**/
+                /* Reading the response from the database**/
                 InputStream inputStream = httpURLConnection.getInputStream();
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
                 String result = "";
-                String line = "";
+                String line;
                 while ((line = bufferedReader.readLine()) != null) {
                     result += line;
                 }
@@ -77,8 +74,6 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
 
                 return result;
 
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -96,7 +91,7 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
                 httpURLConnection.setDoInput(true);
                 httpURLConnection.setDoOutput(true);
 
-                /** Posting the data to the database**/
+                /* Posting the data to the database**/
                 OutputStream outputStream = httpURLConnection.getOutputStream();
                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
                 String post_data = URLEncoder.encode("userName", "UTF-8") + "=" + URLEncoder.encode(userName, "UTF-8") + "&"
@@ -109,11 +104,11 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
                 bufferedWriter.close();
                 outputStream.close();
 
-                /** Reading the response from the database**/
+                /* Reading the response from the database**/
                 InputStream inputStream = httpURLConnection.getInputStream();
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
                 String result = "";
-                String line = "";
+                String line;
                 while ((line = bufferedReader.readLine()) != null) {
                     result += line;
                 }
@@ -124,8 +119,6 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
 
                 return "Registered";
 
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -151,7 +144,7 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
         }
         else if(result.contains("Welcome"))
         {
-            Intent i = new Intent(context,MainActivity.class);
+            Intent i = new Intent(context,MenuOptions.class);
             context.startActivity(i);
         }
         else

@@ -18,18 +18,11 @@
             android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".self_care"
-            android:label="Self Care Menu"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".patient_care"
-            android:label="Patient Care Menu"
-            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MenuOptions"
+            android:label="Main Menu" />
         <activity
             android:name=".information"
             android:label="Useful Information"
@@ -38,6 +31,15 @@
             android:name=".login_register"
             android:label="Login"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".self_care"
+            android:label="Self Care Menu"
+            android:parentActivityName=".MenuOptions" />
+        <activity
+            android:name=".patient_care"
+            android:label="Patient Care Menu"
+            android:parentActivityName=".MenuOptions" />
+
         <activity
             android:name=".NaturalTeeth"
             android:label="@string/title_activity_natural_teeth"
@@ -105,7 +107,7 @@
         <activity
             android:name=".Register"
             android:label="@string/title_activity_register"
-            android:parentActivityName=".login_register" />
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

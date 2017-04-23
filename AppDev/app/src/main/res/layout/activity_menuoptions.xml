@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:fillViewport="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.projects.nicola.oralcarefortheelderly.MainActivity">
+    tools:context="com.projects.nicola.oralcarefortheelderly.MenuOptions">
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -25,9 +25,16 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/logo"
-                android:contentDescription="@string/logo"/>
+                android:contentDescription="@string/logo"
+                android:src="@drawable/logo" />
             <!-- END LOGO -->
+        </LinearLayout>
+        <LinearLayout android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:orientation="vertical"
+            android:background="@drawable/footer"
+            android:layout_alignParentBottom="true">
         </LinearLayout>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -38,37 +45,27 @@
             android:padding="10dp">
 
             <Button
-                android:id="@+id/C"
+                android:id="@+id/A"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dip"
-                android:onClick="gotoLogin"
-                android:text="@string/c"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:onClick="gotoSelfCare"
+                android:text="@string/button"
                 android:textSize="25sp"
-                android:height="80dp"/>
+                android:height="90dp"/>
 
             <Button
-                android:id="@+id/Register_button"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="40dip"
-                android:gravity="center"
-                android:onClick="gotoRegister"
-                android:text="@string/newTo"
-                android:textSize="25sp"
-                android:height="80dp"/>
-
-            <Button
-                android:id="@+id/D"
+                android:id="@+id/B"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="40dip"
-                android:layout_marginTop="40dip"
-                android:onClick="gotoInformation"
-                android:text="@string/d"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:onClick="gotoPatientCare"
+                android:text="@string/b"
                 android:textSize="25sp"
-                android:height="80dp"/>
-
+                android:height="90dp"
+                />
 
         </LinearLayout>
     </RelativeLayout>

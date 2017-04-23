@@ -3,13 +3,14 @@ package com.projects.nicola.oralcarefortheelderly;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.projects.nicola.oralcarefortheelderly.utils.backgroundWorker;
 
-public class login_register extends Activity{
+public class login_register extends AppCompatActivity{
 
     EditText UsernameET, PasswordET;
     @Override
@@ -37,9 +38,5 @@ public class login_register extends Activity{
         }
     }
 
-    public void gotoRegister(View view)
-    {
-        Intent intent = new Intent(this, Register.class);
-        startActivity(intent);
-    }
+
 }

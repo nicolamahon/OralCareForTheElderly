@@ -17,7 +17,7 @@
             android:id="@+id/header"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@layout/header"
+            android:background="@drawable/header"
             android:gravity="center"
             android:paddingBottom="5dip"
             android:paddingTop="5dip">
@@ -25,7 +25,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/logo" />
+                android:src="@drawable/logo"
+                android:contentDescription="@string/logo"/>
             <!-- END LOGO -->
         </LinearLayout>
 
@@ -37,55 +38,103 @@
             android:padding="10dp"
             android:gravity="center">
 
-            <Button
-                android:id="@+id/naturalButton"
+            <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+            <Button
+                android:id="@+id/naturalButton"
+                style="?android:attr/buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="gotoNatural"
-                android:text="@string/natural_teeth" />
+                android:text="@string/natural_teeth"
+                android:textSize="17sp"
+                android:width="175dp"
+                android:height="70dp"
+
+                />
 
             <Button
                 android:id="@+id/denturecareButton"
-                android:layout_width="fill_parent"
+                style="?android:attr/buttonStyle"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="gotoDentureCare"
-                android:text="@string/denture_care" />
-
+                android:text="@string/denture_care"
+                android:textSize="17sp"
+                android:width="175dp"
+                android:height="70dp"
+                />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
             <Button
                 android:id="@+id/mouthButton"
-                android:layout_width="fill_parent"
+                style="?android:attr/buttonStyle"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="gotoMouthCare"
-                android:text="@string/mouth_care" />
+                android:text="@string/mouth_care"
+                android:textSize="17sp"
+                android:width="175dp"
+                android:height="70dp"
+                />
 
             <Button
                 android:id="@+id/oralButton"
-                android:layout_width="fill_parent"
+                style="?android:attr/buttonStyle"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="gotoOralHealth"
-                android:text="@string/oral_health" />
+                android:text="@string/oral_health"
+                android:textSize="17sp"
+                android:width="175dp"
+                android:height="70dp"
+                />
 
-
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
             <Button
                 android:id="@+id/dryButton"
-                android:layout_width="fill_parent"
+                style="?android:attr/buttonStyle"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:onClick="gotoDryMouth"
-                android:text="@string/dry_mouth" />
+                android:text="@string/dry_mouth"
+                android:textSize="17sp"
+                android:width="175dp"
+                android:height="70dp"
+                />
 
             <Button
                 android:id="@+id/dexButton"
-                android:layout_width="fill_parent"
+                style="?android:attr/buttonStyle"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="gotoDexterity"
-                android:text="@string/dex_issues" />
+                android:text="@string/dex_issues"
+                android:textSize="17sp"
+                android:width="175dp"
+                android:height="70dp"/>
+
+            </LinearLayout>
             <Button
                 android:id="@+id/oralCareButton"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:onClick="gotoOralCare"
                 android:text="@string/why_important"
+                android:textSize="17sp"
                 android:padding="20dp"/>
             <Button
                 android:id="@+id/DifficultyButton"
@@ -93,6 +142,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="gotoDifficult"
                 android:text="@string/difficulty_with_mouth_opening"
+                android:textSize="17sp"
                 android:padding="20dp"/>
         </LinearLayout>
     </RelativeLayout>

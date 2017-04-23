@@ -3,8 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorWhite"
     tools:context="com.projects.nicola.oralcarefortheelderly.GumDiseaseMain">
 
     <include layout="@layout/content_gum_disease_main" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_height="500dp"
+        android:layout_width="match_parent"
+        android:id="@+id/view_pager_gumdisease">
+    </android.support.v4.view.ViewPager>
+
 
 </android.support.design.widget.CoordinatorLayout>

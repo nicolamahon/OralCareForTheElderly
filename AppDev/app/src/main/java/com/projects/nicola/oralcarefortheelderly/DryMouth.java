@@ -14,9 +14,11 @@ public class DryMouth extends AppCompatActivity {
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
     }
 
+
     public void gotoDryRemedies(View view)
     {
         Intent newIntent = new Intent(this, DryMouthRemedies.class);
         startActivity(newIntent);
     }
+
 }

@@ -15,7 +15,7 @@ public class DryMouthRemedies extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dry_mouth_remedies);
 
-        viewPager = (ViewPager)findViewById(R.id.view_pager);
+        viewPager = (ViewPager)findViewById(R.id.view_pager_remedies);
         adapter = new RemediesSwipeAdapter(this);
         viewPager.setAdapter(adapter);
 

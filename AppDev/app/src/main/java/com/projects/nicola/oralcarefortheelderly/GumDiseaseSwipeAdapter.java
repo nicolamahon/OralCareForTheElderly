@@ -8,19 +8,20 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
 /**
  * Created by Nicola on 2017-04-23.
  */
 
-public class RemediesSwipeAdapter extends PagerAdapter {
+public class GumDiseaseSwipeAdapter extends PagerAdapter{
 
-    private int[] image_resources = {R.drawable.oralbalance_13, R.drawable.water_13, R.drawable.sweets_13, R.drawable.mouthwash_13};
-    private int[] dryMouthHeader_strings = {R.string.oralBalanceData, R.string.water_glass, R.string.sweets, R.string.mouthWashHead};
-    private int[] dryMouthBody_strings = {R.string.empty_string, R.string.empty_string, R.string.empty_string, R.string.mouthWashBullets};
+    private int[] image_resources = {R.drawable.gum_disease_8, R.drawable.gum_disease_causes};
+    private int[] gumDiseaseHeader_strings = {R.string.gumDiseaseSigns, R.string.gumDiseaseCauses};
+    private int[] gumDiseaseBody_strings = {R.string.gumDiseaseSignsInfo, R.string.gumDiseaseCausesInfo};
     private Context ctx;
     private LayoutInflater layoutInflater;
 
-    public RemediesSwipeAdapter(Context ctx)
+    public GumDiseaseSwipeAdapter(Context ctx)
     {
         this.ctx = ctx;
     }
@@ -32,23 +33,24 @@ public class RemediesSwipeAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
+
         return (view == (RelativeLayout)object);
     }
 
     public Object instantiateItem(ViewGroup container, int position)
     {
         layoutInflater = (LayoutInflater)ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View item_view = layoutInflater.inflate(R.layout.remedies_swipe_layout, container, false);
+        View item_view = layoutInflater.inflate(R.layout.content_gum_disease_main, container, false);
 
-        ImageView imageView = (ImageView)item_view.findViewById(R.id.dryMouthIMGs);
-        TextView textView1 = (TextView)item_view.findViewById(R.id.dryMouthHead);
-        TextView textView2 = (TextView)item_view.findViewById(R.id.image_count_remedies);
-        TextView textView3 = (TextView)item_view.findViewById(R.id.dryMouthInfo);
+        ImageView imageView = (ImageView)item_view.findViewById(R.id.gumDiseaseIMGs);
+        TextView textView1 = (TextView)item_view.findViewById(R.id.gumDiseaseHeader);
+        TextView textView2 = (TextView)item_view.findViewById(R.id.image_count_gumdisease);
+        TextView textView3 = (TextView)item_view.findViewById(R.id.gumDiseaseInfo);
 
         imageView.setImageResource(image_resources[position]);
-        textView1.setText(dryMouthHeader_strings[position]);
+        textView1.setText(gumDiseaseHeader_strings[position]);
         textView2.setText("Swipe for more...>>>   "+(position+1)+"/"+image_resources.length);
-        textView3.setText(dryMouthBody_strings[position]);
+        textView3.setText(gumDiseaseBody_strings[position]);
 
         container.addView(item_view);
         return item_view;

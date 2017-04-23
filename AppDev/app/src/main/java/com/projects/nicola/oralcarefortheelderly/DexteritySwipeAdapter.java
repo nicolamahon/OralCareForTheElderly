@@ -17,7 +17,7 @@ import android.widget.TextView;
 public class DexteritySwipeAdapter extends PagerAdapter {
 
     private int[] image_resources = {R.drawable.dexterity_1, R.drawable.electric_brush_23, R.drawable.collis_curve_24, R.drawable.floss_holder_25, R.drawable.interdental_26, R.drawable.handle_grips_28, R.drawable.three_way_brush_28};
-    private int[] header_strings = {R.string.empty_string, R.string.elec_brush_head, R.string.collis_head, R.string.floss_head, R.string.interdental_head, R.string.interdental_head, R.string.handle_grips_head, R.string.three_way_head};
+    private int[] header_strings = {R.string.dexMain_head, R.string.elec_brush_head, R.string.collis_head, R.string.floss_head, R.string.interdental_head, R.string.handle_grips_head, R.string.three_way_head};
     private int[] body_strings = {R.string.dexterityMain, R.string.elec_brush, R.string.collis, R.string.floss, R.string.interdental, R.string.handle_grips, R.string.three_way};
 
     private Context ctx;

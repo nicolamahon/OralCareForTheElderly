@@ -54,12 +54,12 @@
     <string name="title_activity_register">Register</string>
     <string name="empty_string" />
     <string name="title_activity_dry_mouth_remedies">Dry Mouth Remedies</string>
-    <string name="oralBalanceData"><![CDATA[Oralbalance© long lasting lubricant relieves, soothes and protects dry mouth tissues against dry discomfort, minor irritations, and burning sensations.]]></string>
+    <string name="oralBalanceData"><![CDATA[Oralbalance©\n\nA long lasting lubricant that relieves, soothes and protects dry mouth tissues against dry discomfort, minor irritations, and burning sensations.]]></string>
     <string name="water_glass">Regular Water\n\nKeep a water bottle handy and take sips frequently.</string>
     <string name="water_info">Keep a water bottle handy and take sips frequently. It\'s also important to stay away from acidic beverages, such as orange juice, soda and any drink that contains citric or phosphoric acid.</string>
-    <string name="sweets">Sugar-Free Sweets</string>
+    <string name="sweets">Sugar-Free Sweets\n\nSuck on sugar-free hard candies to stimulate the flow of saliva.</string>
     <string name="sweets_info">Suck on sugar-free hard candies to stimulate the flow of saliva.</string>
-    <string name="mouthWashHead">Bioxtra Mouthwash (250ml)(BIOX3)</string>
+    <string name="mouthWashHead">Bioxtra Mouthwash (250ml)\n(BIOX3)</string>
     <string name="mouthWashBullets">● Prolonging the action of BioXtra toothpaste \n● Supplementing saliva\'s natural protective mechanisms \n● Maintaining a pH which helps prevent plaque formation \n● Refreshing and moistening the mouth</string>
     <string name="welcome">Welcome</string>
     <string name="btn_logout">Logout</string>

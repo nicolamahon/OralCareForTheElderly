@@ -14,17 +14,17 @@
         android:textSize="20sp"
         android:text="dryMouthHead"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp" />
+        android:layout_marginTop="220dp" />
 
     <TextView
         android:id="@+id/dryMouthInfo"
-        android:layout_width="320dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:text="dryMouthInfo"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="285dp" />
+        android:layout_marginTop="290dp" />
 
     <ImageView
         android:layout_width="200dp"
@@ -42,7 +42,7 @@
         android:textAlignment="center"
         android:textSize="15dp"
         android:text="@string/image_count"
-        android:layout_marginBottom="29dp"
+        android:layout_marginBottom="10dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 

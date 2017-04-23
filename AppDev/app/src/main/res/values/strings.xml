@@ -94,4 +94,16 @@
     <string name="handle_grips">Two or three of these on a toothbrush can help those with  manual Dexterity issues.</string>
     <string name="three_way">Ideal as, like the collis curve, you can clean font back and top of teeth at the same time.</string>
 
+    <string name="oralcarehead1">Why is Oral Health Important?</string>
+    <string name="oralcarehead2">The mouth is a mirror\n of health and disease</string>
+    <string name="oralcarehead3">Importance of Dental Health to Overall Health and Well-Being</string>
+    <string name="oralcarehead4">Consequences of\nPoor Oral Health – Psychological</string>
+    <string name="oralcarehead5">Consequences of\nPoor Oral Health- Physical</string>
+
+    <string name="oralcarebody1">► Dental health is important because dental disease and mouth problems are common in the nursing home and homebound population.\n\n►You have probably noticed that many of the persons you care for have problems with their mouths.</string>
+    <string name="oralcarebody2">The mouth has been called a mirror of health and disease because there you’ll find signs of:\n\n► Systemic diseases\n\n► Nutritional deficiencies</string>
+    <string name="oralcarebody3">Oral health and general health should  not  be thought of as being separate.\n\nCommon Conditions seen in many patients:\n\n► Cardiovascular disease\n► Diabetes\n► Malnutrition\n► Stroke\n► Pneumonia\n\nPoor oral health can make these medical problems worse because of the increased bacteria in the mouth that spread to other systems of the body.</string>
+    <string name="oralcarebody4">► Poor self-esteem - Decreased social interaction\n\n► Problems with eating, sleeping or speech\n\n► Mouth pain</string>
+    <string name="oralcarebody5">The most common mouth problems in patients in long-term care are:\n\n► Gum Disease\n\n► Dental Cavities\n\n► Sores in the Mouth\n\n► Ill-fitting Dentures\n\n► Little Saliva</string>
+
 </resources>

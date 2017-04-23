@@ -5,11 +5,6 @@
     android:layout_height="match_parent"
     tools:context="com.projects.nicola.oralcarefortheelderly.DryMouthRemedies">
 
-    <!--
-    <include layout="@layout/page_fragment_layout"
-        android:id="@+id/include" />
-    -->
-
     <include layout="@layout/content_dry_mouth_remedies"
         android:id="@+id/include" />
 

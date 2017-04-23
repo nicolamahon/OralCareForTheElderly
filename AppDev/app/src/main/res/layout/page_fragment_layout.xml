@@ -7,15 +7,31 @@
 
 
     <TextView
-        android:id="@+id/oralBalanceInfo"
+        android:id="@+id/dryMouthInfo"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="25sp"
-        android:text="@string/oralBalanceData"
-        android:layout_alignParentBottom="true"
+        android:text="dryMouthInfo"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="52dp" />
+        android:layout_marginTop="225dp" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dryMouthIMGs"
+        android:src="@drawable/logo"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:id="@+id/image_count"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="image_count"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="12dp" />
 
 </RelativeLayout>

@@ -6,18 +6,22 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.projects.nicola.oralcarefortheelderly.MouthCare"
-    tools:showIn="@layout/activity_mouth_care">
+    tools:showIn="@layout/activity_mouth_care"
+    android:id="@+id/header"
+    android:background="@drawable/header"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip">
 
+    <!-- android:gravity="center" -->
 
     <Button
         android:id="@+id/goToGumDisease"
         android:layout_width="200dp"
         android:layout_height="70dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="117dp"
+        android:layout_marginTop="74dp"
         android:text="Gum Disease"
         android:onClick="gotoGumDis"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

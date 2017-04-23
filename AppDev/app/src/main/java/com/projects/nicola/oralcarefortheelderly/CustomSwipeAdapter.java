@@ -1,7 +1,6 @@
 package com.projects.nicola.oralcarefortheelderly;
 
 import android.content.Context;
-import android.support.annotation.StringRes;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +16,8 @@ import android.widget.TextView;
 public class CustomSwipeAdapter extends PagerAdapter {
 
     private int[] image_resources = {R.drawable.oralbalance_13, R.drawable.water_13, R.drawable.sweets_13, R.drawable.mouthwash_13};
-    private int[] dryMouth_strings = {R.string.oralBalanceData, R.string.water_glass, R.string.sweets, R.string.mouthWashBullets};
+    private int[] dryMouthHeader_strings = {R.string.oralBalanceData, R.string.water_glass, R.string.sweets, R.string.mouthWashHead};
+    private int[] dryMouthBody_strings = {R.string.empty_string, R.string.empty_string, R.string.empty_string, R.string.mouthWashBullets};
     private Context ctx;
     private LayoutInflater layoutInflater;
 
@@ -42,12 +42,14 @@ public class CustomSwipeAdapter extends PagerAdapter {
         View item_view = layoutInflater.inflate(R.layout.page_fragment_layout, container, false);
 
         ImageView imageView = (ImageView)item_view.findViewById(R.id.dryMouthIMGs);
-        TextView textView1 = (TextView)item_view.findViewById(R.id.dryMouthInfo);
+        TextView textView1 = (TextView)item_view.findViewById(R.id.dryMouthHead);
         TextView textView2 = (TextView)item_view.findViewById(R.id.image_count);
+        TextView textView3 = (TextView)item_view.findViewById(R.id.dryMouthInfo);
 
         imageView.setImageResource(image_resources[position]);
-        textView1.setText(dryMouth_strings[position]);
-        textView2.setText((position+1)+"/"+image_resources.length);
+        textView1.setText(dryMouthHeader_strings[position]);
+        textView2.setText("Swipe for more...>>>   "+(position+1)+"/"+image_resources.length);
+        textView3.setText(dryMouthBody_strings[position]);
 
         container.addView(item_view);
         return item_view;

@@ -150,6 +150,7 @@
     <string name="em_q8">8. Is there a suspicious lesion?</string>
     <string name="em_q9">9. Is there a sensitive/sharp or broken tooth?</string>
     <string name="em_callout">Please call Dental Tech Group on (01)455 1866 and we will help assess if an emergancy call out is needed</string>
-
-
+    <string name="google_android_map_api_key"> Map API key </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_us">Contact Us</string>
 </resources>

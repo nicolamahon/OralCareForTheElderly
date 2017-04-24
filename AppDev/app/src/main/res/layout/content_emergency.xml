@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.projects.nicola.oralcarefortheelderly.Emergency"
+    tools:showIn="@layout/activity_emergency"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center"
+             >
+
+            <TextView
+                android:id="@+id/Emergency_Statment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/before_call"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/em1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/em_q1"
+                android:textAlignment="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/em2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/em_q2"
+                android:textAlignment="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/em3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/em_q3"
+                android:textAlignment="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/em4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/em_q4"
+                android:textAlignment="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/em5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/em_q5"
+                android:textAlignment="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/em6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/em_q6"
+                android:textAlignment="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/em7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/em_q7"
+                android:textAlignment="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/em8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/em_q8"
+                android:textAlignment="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/em9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/em_callout"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:padding="15dp"
+               />
+
+        </LinearLayout>
+
+</ScrollView>

@@ -34,7 +34,7 @@ public class patient_care extends AppCompatActivity {
 
     public void gotoEmergency(View view)
     {
-        Intent intent = new Intent(this, Emergancy.class);
+        Intent intent = new Intent(this, Emergency.class);
         startActivity(intent);
     }
 }

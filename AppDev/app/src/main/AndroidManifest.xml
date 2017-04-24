@@ -114,7 +114,7 @@
             android:parentActivityName=".patient_care"
              />
         <activity
-            android:name=".Emergancy"
+            android:name=".Emergency"
             android:label="@string/title_activity_emergency"
             android:parentActivityName=".patient_care"
            />

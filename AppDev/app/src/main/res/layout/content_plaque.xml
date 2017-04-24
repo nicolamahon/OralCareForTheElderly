@@ -13,12 +13,11 @@
         android:id="@+id/plaqueTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:text="@string/plaque_title"
-        android:textSize="36sp"
+        android:layout_marginTop="18dp"
+        android:text="@string/plaqueHead"
+        android:textSize="30sp"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/plaqueIMG"
-        android:layout_alignEnd="@+id/plaqueIMG" />
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:id="@+id/plaqueIMG"
@@ -31,15 +30,14 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="280dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="@string/plaqueInfo1"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:layout_below="@+id/plaqueIMG"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_alignStart="@+id/textView4"
-        android:layout_marginTop="11dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -49,9 +47,9 @@
         android:textSize="20sp"
         android:textStyle="italic|bold"
         android:contentDescription="plaqueImage"
-        android:text="@string/plaqueInfo4"
+        android:text="@string/plaqueInfo2"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="19dp" />
 
 </RelativeLayout>

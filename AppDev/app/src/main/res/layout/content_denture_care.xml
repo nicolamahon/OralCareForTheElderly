@@ -17,7 +17,7 @@
         android:id="@+id/goToHygiene"
         android:layout_width="250dp"
         android:layout_height="100dp"
-        android:text="@string/denture_hygiene"
+        android:text="@string/hygieneHead"
         android:onClick="gotoHygiene"
         android:textSize="30sp"
         />

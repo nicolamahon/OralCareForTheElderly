@@ -5,6 +5,6 @@
     android:layout_height="match_parent"
     tools:context="com.projects.nicola.oralcarefortheelderly.DryMouth">
 
-    <include layout="@layout/content_dry_mouth" />
+    <include layout="@layout/dry_mouth_swipe_content" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,9 +1,8 @@
 <resources>
     <string name="app_name">Oral Care For The Elderly</string>
     <string name="action_settings">Settings</string>
-    <string name="cavities_title">Dental Cavities</string>
-    <string name="cavities_text1">Cavities (or Caries) occur as a result of tooth decay.</string>
-    <string name="cavities_text2">Tooth decay is the destruction of the tooth structure. Tooth decay can affect both the enamel and the dentin.</string>
+    <string name="cavitiesHead">Dental Cavities</string>
+    <string name="cavitiesInfo">Cavities (or Caries) occur as a result of tooth decay.\n\nTooth decay is the destruction of the tooth structure. Tooth decay can affect both the enamel and the dentin.</string>
     <string name="cavity_pic">cavity_pic</string>
     <string name="New_Activity">New Activity</string>
     <string name="button">Self Care</string>
@@ -19,36 +18,22 @@
     <string name="why_important">Why Oral Care is Important</string>
     <string name="oral_health">Oral Health</string>
     <string name="dex_issues">Dexterity Issues</string>
-    <string name="title_activity_plaque">Plaque</string>
-    <string name="plaque_title">What is Plaque?</string>
-    <string name="plaqueInfo1">Plaque is the most common and serious dental health issue.\n\nIt is a soft and sticky film of bacteria from food and sweets.\n\nHardened plaque is called calculus and holds bacteria in the mouth. It causes damage to the gums and bone that supports the teeth.</string>
-    <string name="plaqueInfo4">It is plaque, not aging, that causes tooth loss!</string>
-    <string name="hygiene">Denture Hygiene</string>
+
+
+
+
     <string name="care4denture">Care for Dentures</string>
-    <string name="title_activity_hygiene">Hygiene</string>
-    <string name="title_activity_care_for_denture">CareForDenture</string>
-    <string name="hygieneInfo1">Dentures must be cleaned at least once daily.</string>
-    <string name="hygieneInfo2">Use a denture brush or soft toothbrush and rub off plaque and food particles on teeth including the outside and inside of denture under running water.</string>
-    <string name="hygieneInfo3">Put a towel in the sink to protect dentures from breaking if they fall accidentally or use a plastic bowl.</string>
-    <string name="hygieneInfo4">Denture cleaning tablets can be used but only AFTER cleaning with washing up liquid and warm (hand hot) water.</string>
-    <string name="hygieneInfo5">All denture paste or powder should be removed from the denture each day before applying new denture paste or powder.</string>
-    <string name="careInfo1">Dentures, whether full or partial should not be worn all day.</string>
-    <string name="careInfo2">Leave dentures out at least 6 hours per day to allow the gums to breathe - This is usually overnight.</string>
-    <string name="careInfo3">Wearing dentures constantly can irritate the gums and harbour bacteria.</string>
-    <string name="careInfo4">Dentures that fit poorly can also irritate gums.</string>
+
+
+
+
     <string name="title_activity_gum_disease_main">Gum Disease</string>
-    <string name="title_activity_gum_disease_signs">Gum Disease Signs</string>
     <string name="gumDiseaseSigns">Signs</string>
     <string name="gumDiseaseCauses">Causes</string>
-    <string name="title_activity_gum_disease_causes">Gum Disease Causes</string>
+
     <string name="cavitiesTitle">Cavities</string>
     <string name="plaqueTitle">Plaque</string>
-    <string name="dryMouthHeader">Understanding Problems associated with Dry Mouth</string>
-    <string name="dryMouthInfo1">● Dry mouth is not a normal part of aging.</string>
-    <string name="dryMouthInfo2">● Many common medications reduce the production of saliva.</string>
-    <string name="dryMouthInfo3">● Many of the persons you care for are taking these medications and will suffer from dry mouth.</string>
-    <string name="dryMouthInfo4">● Dry mouth can increase risk of dental cavities, gum disease and infection.</string>
-    <string name="dryMouthInfo5">● Dry mouth can also make it hard to eat, swallow, taste, speak and can cause dentures not to fit properly.</string>
+
     <string name="title_activity_register">Register</string>
     <string name="empty_string" />
     <string name="title_activity_dry_mouth_remedies">Dry Mouth Remedies</string>
@@ -70,9 +55,14 @@
     <string name="enter_password">Enter Password</string>
     <string name="login">Login</string>
     <string name="image_count">image_count</string>
+
+    <string name="testIMG">testIMG</string>
+
+    <string name="dryMouthHead">Understanding Problems associated with Dry Mouth</string>
+    <string name="dryMouthInfo">● Dry mouth is not a normal part of aging.\n\n● Many common medications reduce the production of saliva.\n\n● Many of the persons you care for are taking these medications and will suffer from dry mouth.\n\n● Dry mouth can increase risk of dental cavities, gum disease and infection.\n\n● Dry mouth can also make it hard to eat, swallow, taste, speak and can cause dentures not to fit properly.</string>
     <string name="drymouthhead">dryMouthHead</string>
     <string name="drymouthinfo">dryMouthInfo</string>
-    <string name="testimg">testIMG</string>
+
     <string name="gumDiseaseSignsInfo">● Bleeding Gums\n● Red, swollen, or tender gums\n● Persistent bad breath\n● Bad taste in the mouth\n● Receding gums\n● Formation of deep pockets\n● Loose or shifting teeth</string>
     <string name="gumDiseaseCausesInfo">► Illnesses may affect the condition of the gums.\n► Medications can affect oral health.\n► Bad habits such as smoking, make it harder for gum tissue to repair itself.\n► Poor oral hygiene habits.\n► Family history of dental disease.</string>
     <string name="resident_change_1"> 1. Please email nursinghome@dentaltech.ie\n2. Have in hands Residents full name\n3. Provide either their PPS number or Medical card number so that we can update our records\n4. Let us know which one of the above 4 options apply</string>
@@ -96,29 +86,41 @@
     <string name="handle_grips">Two or three of these on a toothbrush can help those with  manual Dexterity issues.</string>
     <string name="three_way">Ideal as, like the collis curve, you can clean font back and top of teeth at the same time.</string>
 
+    <string name="plaqueHead">What is Plaque?</string>
+    <string name="plaqueInfo1">Plaque is the most common and serious dental health issue.\n\nIt is a soft and sticky film of bacteria from food and sweets.\n\nHardened plaque is called calculus and holds bacteria in the mouth. It causes damage to the gums and bone that supports the teeth.</string>
+    <string name="plaqueInfo2">It is plaque, not aging, that causes tooth loss!</string>
+
     <string name="oralcarehead1">Why is Oral Health Important?</string>
     <string name="oralcarehead2">The mouth is a mirror\n of health and disease</string>
     <string name="oralcarehead3">Importance of Dental Health to Overall Health and Well-Being</string>
     <string name="oralcarehead4">Consequences of\nPoor Oral Health – Psychological</string>
     <string name="oralcarehead5">Consequences of\nPoor Oral Health- Physical</string>
-
     <string name="oralcarebody1">► Dental health is important because dental disease and mouth problems are common in the nursing home and homebound population.\n\n►You have probably noticed that many of the persons you care for have problems with their mouths.</string>
     <string name="oralcarebody2">The mouth has been called a mirror of health and disease because there you’ll find signs of:\n\n► Systemic diseases\n\n► Nutritional deficiencies</string>
     <string name="oralcarebody3">Oral health and general health should  not  be thought of as being separate.\n\nCommon Conditions seen in many patients:\n\n► Cardiovascular disease\n► Diabetes\n► Malnutrition\n► Stroke\n► Pneumonia\n\nPoor oral health can make these medical problems worse because of the increased bacteria in the mouth that spread to other systems of the body.</string>
     <string name="oralcarebody4">► Poor self-esteem - Decreased social interaction\n\n► Problems with eating, sleeping or speech\n\n► Mouth pain</string>
     <string name="oralcarebody5">The most common mouth problems in patients in long-term care are:\n\n► Gum Disease\n\n► Dental Cavities\n\n► Sores in the Mouth\n\n► Ill-fitting Dentures\n\n► Little Saliva</string>
+
+    <string name="hygieneHead">Denture Hygiene</string>
+    <string name="hygieneInfo">Dentures must be cleaned at least once daily.\n\nUse a denture brush or soft toothbrush and rub off plaque and food particles on teeth including the outside and inside of denture under running water.\n\nPut a towel in the sink to protect dentures from breaking if they fall accidentally or use a plastic bowl.\n\nDenture cleaning tablets can be used but only AFTER cleaning with washing up liquid and warm (hand hot) water.\n\nAll denture paste or powder should be removed from the denture each day before applying new denture paste or powder.</string>
+    <string name="hygiene">Denture Hygiene</string>
+
+    <string name="careDenturesHead">Care for Dentures</string>
+    <string name="careDenturesInfo">Dentures, whether full or partial should not be worn all day.\n\nLeave dentures out at least 6 hours per day to allow the gums to breathe - This is usually overnight.\n\nWearing dentures constantly can irritate the gums and harbour bacteria.\n\nDentures that fit poorly can also irritate gums.</string>
+
     <string name="mouthOpenHead">Mouth Prop</string>
     <string name="mouthOpenInfo">The foam mouth prop was designed for caregivers to use to help keep the mouth open among older persons with cognitive impairment.\n\nThe unique design of the head and handle give greater safety, control, and comfort.\n\nYou can also make a mouth prop by wrapping gauze to a cushion at the end of a tongue depressor.\n\nIt is vital that EXTRA care is taken if using a ‘home made’ prop as the gauze can come loose and could be swallowed.</string>
-    <string name="test">test</string>
-    <string name="dexinfo">dexInfo</string>
+
     <string name="dexhead">dexHead</string>
+    <string name="dexinfo">dexInfo</string>
+
     <string name="cavities">Cavities</string>
     <string name="plaque">Plaque</string>
-    <string name="denture_hygiene">Denture Hygiene</string>
-    <string name="care_for_dentures">Care for Dentures</string>
+
+
+
+
     <string name="title_activity_resident">Resident</string>
-    <string name="title_activity_broken__denture">Broken Denture</string>
-    <string name="title_activity_lost__denture">Lost Denture</string>
     <string name="title_activity_emergency">Emergency</string>
     <string name="change_in_residents">Change in Residents</string>
     <string name="new_resident">New Resident</string>
@@ -153,4 +155,11 @@
     <string name="google_android_map_api_key"> Map API key </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="contact_us">Contact Us</string>
+    <string name="title_activity_broken__denture">Broken_Denture</string>
+    <string name="title_activity_lost__denture">Lost_Denture</string>
+    <string name="title_activity_emergancy">Emergancy</string>
+    <string name="care_for_dentures">Care For Dentures</string>
+    <string name="test">test_string_do_not_delete</string>
+
+
 </resources>

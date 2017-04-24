@@ -1,67 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
+    android:layout_width="match_parent">
 
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.projects.nicola.oralcarefortheelderly.CareForDenture"
-    tools:showIn="@layout/activity_care_for_denture">
-
-    <TextView
-        android:id="@+id/hygieneTitle"
-        android:layout_width="wrap_content"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="47dp"
-        android:text="Care for Dentures"
-        android:textSize="36sp" />
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.projects.nicola.oralcarefortheelderly.CareForDenture"
+        tools:showIn="@layout/activity_care_for_denture">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="320dp"
-        android:layout_height="50dp"
-        android:textAlignment="center"
-        android:layout_marginTop="28dp"
-        android:text="@string/careInfo1"
-        android:textSize="16sp"
-        android:layout_below="@+id/hygieneTitle"
-        android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/careDenturesHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="@string/careDenturesHead"
+            android:textSize="30sp"
+            android:padding="@dimen/fab_margin"/>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="280dp"
-        android:layout_height="76dp"
-        android:textAlignment="center"
-        android:layout_marginTop="18dp"
-        android:textSize="16sp"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:text="@string/careInfo2" />
+        <TextView
+            android:id="@+id/careDenturesInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/careDenturesHead"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/fab_margin"
+            android:text="@string/careDenturesInfo"
+            android:textAlignment="center"
+            android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="280dp"
-        android:layout_height="60dp"
-        android:textAlignment="center"
-        android:layout_marginTop="18dp"
-        android:textSize="16sp"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:text="@string/careInfo3" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="280dp"
-        android:layout_height="60dp"
-        android:textAlignment="center"
-        android:layout_marginTop="10dp"
-        android:textSize="16sp"
-        android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true"
-        android:text="@string/careInfo4" />
-
-
-</RelativeLayout>
+    </LinearLayout>
+</ScrollView>

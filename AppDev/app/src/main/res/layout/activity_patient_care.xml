@@ -1,9 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.projects.nicola.oralcarefortheelderly.patient_care">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.projects.nicola.oralcarefortheelderly.MenuOptions">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+        <!--Header-->
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip">
+            <!--LOGO-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/logo"
+                android:src="@drawable/logo" />
+            <!-- END LOGO -->
+        </LinearLayout>
+        <!--FOOTER-->
+        <LinearLayout android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:orientation="vertical"
+            android:background="@drawable/footer"
+            android:layout_alignParentBottom="true">
+        </LinearLayout>
+        <!--End FOOTER-->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/Change_In_Residents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:onClick="gotoResidents"
+                android:text="Change In Residents"
+                android:textSize="25sp"
+                android:height="60dp"/>
+
+            <Button
+                android:id="@+id/Broken_Dentures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:onClick="gotoBroken"
+                android:text="Broken Dentures"
+                android:textSize="25sp"
+                android:height="60dp"
+                />
+
+            <Button
+                android:id="@+id/Lost_Denture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:onClick="gotoLost"
+                android:text="Lost Denture"
+                android:textSize="25sp"
+                android:height="60dp"/>
+
+            <Button
+                android:id="@+id/Emergancy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:onClick="gotoEmergancy"
+                android:text="Emergancy"
+                android:textSize="25sp"
+                android:height="60dp"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

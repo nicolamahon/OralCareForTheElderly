@@ -114,5 +114,9 @@
     <string name="plaque">Plaque</string>
     <string name="denture_hygiene">Denture Hygiene</string>
     <string name="care_for_dentures">Care for Dentures</string>
+    <string name="title_activity_resident">Resident</string>
+    <string name="title_activity_broken__denture">Broken_Denture</string>
+    <string name="title_activity_lost__denture">Lost_Denture</string>
+    <string name="title_activity_emergancy">Emergancy</string>
 
 </resources>

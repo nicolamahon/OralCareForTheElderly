@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.projects.nicola.oralcarefortheelderly"
-    >
+    package="com.projects.nicola.oralcarefortheelderly">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -9,18 +8,17 @@
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
+        android:label="Oral Care"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:label="Oral Care"
-        android:theme="@style/AppTheme"
-        >
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
         <activity
-            android:name=".MainActivity">
-        </activity>
-        <activity android:name=".MenuOptions"
-            android:label="Main Menu" >
+            android:name=".MenuOptions"
+            android:label="Main Menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -40,7 +38,6 @@
             android:name=".patient_care"
             android:label="Patient Care Menu"
             android:parentActivityName=".MenuOptions" />
-
         <activity
             android:name=".NaturalTeeth"
             android:label="@string/title_activity_natural_teeth"
@@ -101,6 +98,22 @@
             android:name=".Register"
             android:label="@string/title_activity_register"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Resident"
+            android:label="@string/title_activity_resident"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Broken_Denture"
+            android:label="@string/title_activity_broken__denture"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lost_Denture"
+            android:label="@string/title_activity_lost__denture"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Emergancy"
+            android:label="@string/title_activity_emergancy"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

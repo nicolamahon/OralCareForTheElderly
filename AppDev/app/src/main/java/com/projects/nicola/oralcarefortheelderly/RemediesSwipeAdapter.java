@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 /**
  * Created by Nicola on 2017-04-23.
@@ -32,7 +33,7 @@ public class RemediesSwipeAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
-        return (view == (RelativeLayout)object);
+        return (view == (ScrollView)object);
     }
 
     public Object instantiateItem(ViewGroup container, int position)
@@ -56,6 +57,6 @@ public class RemediesSwipeAdapter extends PagerAdapter {
 
     public void destroyItem (ViewGroup container, int position, Object object)
     {
-        container.removeView((RelativeLayout)object);
+        container.removeView((ScrollView)object);
     }
 }

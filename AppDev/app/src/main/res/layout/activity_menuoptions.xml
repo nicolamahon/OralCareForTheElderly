@@ -29,6 +29,7 @@
                 android:src="@drawable/logo" />
             <!-- END LOGO -->
         </LinearLayout>
+        <!--FOOTER-->
         <LinearLayout android:id="@+id/footer"
             android:layout_width="fill_parent"
             android:layout_height="90dip"
@@ -36,7 +37,7 @@
             android:background="@drawable/footer"
             android:layout_alignParentBottom="true">
         </LinearLayout>
-
+        <!--End FOOTER-->
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

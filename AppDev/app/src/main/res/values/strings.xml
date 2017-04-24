@@ -110,5 +110,9 @@
     <string name="test">test</string>
     <string name="dexinfo">dexInfo</string>
     <string name="dexhead">dexHead</string>
+    <string name="cavities">Cavities</string>
+    <string name="plaque">Plaque</string>
+    <string name="denture_hygiene">Denture Hygiene</string>
+    <string name="care_for_dentures">Care for Dentures</string>
 
 </resources>

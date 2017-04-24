@@ -7,34 +7,28 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.projects.nicola.oralcarefortheelderly.NaturalTeeth"
     tools:showIn="@layout/activity_natural_teeth"
-    android:id="@+id/header"
     android:background="@drawable/header"
-    android:paddingBottom="5dip"
-    android:paddingTop="5dip">
-
-    <!-- android:gravity="center" -->
+    android:gravity="center" >
 
 
     <Button
         android:id="@+id/goToCavities"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="67dp"
-        android:text="Cavities"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="@string/cavities"
         android:onClick="gotoCavity"
+        android:textSize="30sp"
         />
 
     <Button
         android:id="@+id/goToPlaque"
-        android:layout_width="200dp"
-        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
         android:layout_marginTop="21dp"
-        android:text="Plaque"
+        android:text="@string/plaque"
         android:onClick="gotoPlaque"
         android:layout_below="@+id/goToCavities"
-        android:layout_alignLeft="@+id/goToCavities"
-        android:layout_alignStart="@+id/goToCavities" />
+        android:textSize="30sp"
+        />
 
 </RelativeLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -16,10 +16,10 @@
             android:id="@+id/oralcareHead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:padding="@dimen/fab_margin"
             android:text="oralcareHead"
             android:textAlignment="center"
-            android:textSize="25sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
 
@@ -29,9 +29,7 @@
             android:layout_height="wrap_content"
             android:textSize="24sp"
             android:text="oralcareInfo"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:layout_marginTop="30dp"
+            android:padding="@dimen/fab_margin"
             android:layout_marginBottom="40dp"/>
 
     </LinearLayout>

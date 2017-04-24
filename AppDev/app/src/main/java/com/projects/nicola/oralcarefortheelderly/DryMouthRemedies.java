@@ -1,6 +1,7 @@
 package com.projects.nicola.oralcarefortheelderly;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
@@ -18,6 +19,9 @@ public class DryMouthRemedies extends AppCompatActivity {
         viewPager = (ViewPager)findViewById(R.id.view_pager_remedies);
         adapter = new RemediesSwipeAdapter(this);
         viewPager.setAdapter(adapter);
+
+        TabLayout tabLayout = (TabLayout)findViewById(R.id.tabDots);
+        tabLayout.setupWithViewPager(viewPager, true);
 
     }
 

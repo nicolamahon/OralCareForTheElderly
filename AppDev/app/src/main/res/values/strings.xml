@@ -42,7 +42,7 @@
     <string name="water_info">Keep a water bottle handy and take sips frequently. It\'s also important to stay away from acidic beverages, such as orange juice, soda and any drink that contains citric or phosphoric acid.</string>
     <string name="sweets">Sugar-Free Sweets\n\nSuck on sugar-free hard candies to stimulate the flow of saliva.</string>
     <string name="sweets_info">Suck on sugar-free hard candies to stimulate the flow of saliva.</string>
-    <string name="mouthWashHead">Bioxtra Mouthwash (250ml)\n(BIOX3)</string>
+    <string name="mouthWashHead">Bioxtra Mouthwash (250ml)(BIOX3)</string>
     <string name="mouthWashBullets">● Prolonging the action of BioXtra toothpaste \n● Supplementing saliva\'s natural protective mechanisms \n● Maintaining a pH which helps prevent plaque formation \n● Refreshing and moistening the mouth</string>
     <string name="welcome">Welcome</string>
     <string name="btn_logout">Logout</string>
@@ -91,7 +91,7 @@
     <string name="plaqueInfo2">It is plaque, not aging, that causes tooth loss!</string>
 
     <string name="oralcarehead1">Why is Oral Health Important?</string>
-    <string name="oralcarehead2">The mouth is a mirror\n of health and disease</string>
+    <string name="oralcarehead2">The mouth is a mirror of health and disease</string>
     <string name="oralcarehead3">Importance of Dental Health to Overall Health and Well-Being</string>
     <string name="oralcarehead4">Consequences of\nPoor Oral Health – Psychological</string>
     <string name="oralcarehead5">Consequences of\nPoor Oral Health- Physical</string>

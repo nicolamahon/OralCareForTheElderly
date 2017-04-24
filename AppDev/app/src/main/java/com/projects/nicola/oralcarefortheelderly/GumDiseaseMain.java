@@ -1,6 +1,7 @@
 package com.projects.nicola.oralcarefortheelderly;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
@@ -18,6 +19,8 @@ public class GumDiseaseMain extends AppCompatActivity {
         adapter = new GumDiseaseSwipeAdapter(this);
         viewPager.setAdapter(adapter);
 
+        TabLayout tabLayout = (TabLayout)findViewById(R.id.tabDots);
+        tabLayout.setupWithViewPager(viewPager, true);
     }
 
 }

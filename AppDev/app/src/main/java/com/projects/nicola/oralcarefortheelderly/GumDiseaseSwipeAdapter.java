@@ -34,7 +34,7 @@ public class GumDiseaseSwipeAdapter extends PagerAdapter{
     @Override
     public boolean isViewFromObject(View view, Object object) {
 
-        return (view == (RelativeLayout)object);
+        return (view == object);
     }
 
     public Object instantiateItem(ViewGroup container, int position)

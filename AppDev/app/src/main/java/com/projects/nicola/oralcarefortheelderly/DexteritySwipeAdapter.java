@@ -36,7 +36,7 @@ public class DexteritySwipeAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
-        return (view == (ScrollView)object);
+        return (view == object);
     }
 
     public Object instantiateItem(ViewGroup container, int position)

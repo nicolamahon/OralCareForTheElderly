@@ -101,19 +101,23 @@
         <activity
             android:name=".Resident"
             android:label="@string/title_activity_resident"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:parentActivityName=".patient_care"
+             />
         <activity
             android:name=".Broken_Denture"
             android:label="@string/title_activity_broken__denture"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:parentActivityName=".patient_care"
+             />
         <activity
             android:name=".Lost_Denture"
             android:label="@string/title_activity_lost__denture"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:parentActivityName=".patient_care"
+             />
         <activity
             android:name=".Emergancy"
-            android:label="@string/title_activity_emergancy"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/title_activity_emergency"
+            android:parentActivityName=".patient_care"
+           />
     </application>
 
 </manifest>

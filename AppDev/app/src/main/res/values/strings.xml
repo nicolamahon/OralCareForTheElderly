@@ -75,7 +75,11 @@
     <string name="testimg">testIMG</string>
     <string name="gumDiseaseSignsInfo">● Bleeding Gums\n● Red, swollen, or tender gums\n● Persistent bad breath\n● Bad taste in the mouth\n● Receding gums\n● Formation of deep pockets\n● Loose or shifting teeth</string>
     <string name="gumDiseaseCausesInfo">► Illnesses may affect the condition of the gums.\n► Medications can affect oral health.\n► Bad habits such as smoking, make it harder for gum tissue to repair itself.\n► Poor oral hygiene habits.\n► Family history of dental disease.</string>
-
+    <string name="resident_change_1"> 1. Please email nursinghome@dentaltech.ie\n2. Have in hands Residents full name\n3. Provide either their PPS number or Medical card number so that we can update our records\n4. Let us know which one of the above 4 options apply</string>
+    <string name="resident_change_2">1. Please email nursinghome@dentaltech.ie \n2. Have in hands complete medical history form for this new resident \n3. Please include a photo copy of the resident’s medical card \n4. Let us know if there is any specific dental issue that needs immediate attention. \n\nNote: We will endeavour to examine all new but we cannot always guarantee this.</string>
+    <string name="resident_damaged">Please wrap the denture up safely with all of the prices. Place in a envelope with the patients name and a photocopy of their medical card or a cheque for €85 if no medical card or invalid/expired medical card. Please call Dental Tech Group on 01 455 1866 and we will collect the denture for repair and return within 24 hours.</string>
+    <string name="resident_damaged2">We will need to schedule a visit to take an impression of the patients mouth, Please Call Dental Tech Group on 01 455 1866.</string>
+    <string name="resident_damaged3">Please Call Dental Tech Group on 01 455 1866 to discuss. </string>
     <string name="dexMain_head">User Friendly Hygiene Aids</string>
     <string name="elec_brush_head">Electric Toothbrush</string>
     <string name="collis_head">Collis Curve Toothbrush</string>
@@ -113,8 +117,26 @@
     <string name="denture_hygiene">Denture Hygiene</string>
     <string name="care_for_dentures">Care for Dentures</string>
     <string name="title_activity_resident">Resident</string>
-    <string name="title_activity_broken__denture">Broken_Denture</string>
-    <string name="title_activity_lost__denture">Lost_Denture</string>
-    <string name="title_activity_emergancy">Emergancy</string>
-
+    <string name="title_activity_broken__denture">Broken Denture</string>
+    <string name="title_activity_lost__denture">Lost Denture</string>
+    <string name="title_activity_emergency">Emergency</string>
+    <string name="change_in_residents">Change in Residents</string>
+    <string name="new_resident">New Resident</string>
+    <string name="tvresident">TVResident</string>
+    <string name="please_choose_one_of_the_following_options">Please Choose one of the following options:</string>
+    <string name="type_of_denture">Choose the type of Denture</string>
+    <string name="p_denture">Partial Denture</string>
+    <string name="f_denture">Full Denture</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="parts_missing">Are any Teeth or Parts Missing?</string>
+    <string name="clean_break">Is there a crack or a clean break?</string>
+    <string name="emergency">Emergency</string>
+    <string name="lost_denture_statement">Before calling Dental Tech Group, please check the following information so that we can make the necessary arrangements for a replacement denture.</string>
+    <string name="lost_denture_questions">1. Is it an upper or a lower denture? \n2. Is it a full or a partial Denture? \n3. How long since they lost the Denture? \n4. Has the patient got a denture in the opposing arch or are they without teeth? \n 5. Is the patient capable of complying with the treatment involved in fitting a new denture? i.e. 4 visits. </string>
+    <string name="medical_card">Does the resident have a medical card?</string>
+    <string name="medical_card_scheme">Has the resident had a denture made under the medical card scheme in the last 5 years?</string>
+    <string name="private_replacement">We will provide the replacement denture privately.</string>
+    <string name="call_denture">Please Call Dental Tech Group on 01 455 1866 with the residents Name and above details</string>
+    <string name="denture_cover">The denture will be covered by the medical card scheme. We need to send for approval from the HSE for the denture and this can take up to 6 weeks. Treatment cannot start until the approval is received. Treatment will then take six weeks to complete.</string>
 </resources>

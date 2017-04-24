@@ -9,9 +9,6 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
-/**
- * Created by Nicola on 2017-04-23.
- */
 
 public class RemediesSwipeAdapter extends PagerAdapter {
 
@@ -33,7 +30,7 @@ public class RemediesSwipeAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
-        return (view == (ScrollView)object);
+        return (view == object);
     }
 
     public Object instantiateItem(ViewGroup container, int position)

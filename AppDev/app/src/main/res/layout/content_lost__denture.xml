@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,4 +8,116 @@
     tools:context="com.projects.nicola.oralcarefortheelderly.Lost_Denture"
     tools:showIn="@layout/activity_lost__denture">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Lost_Denture_Statment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/lost_denture_statement"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Lost_Denture_Question"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/lost_denture_questions"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/medical_card"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/medical_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/medical_card_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/yes"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/medical_card_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/no"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/medical_card_scheme"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/medical_scheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/medical_scheme_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/yes"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/medical_scheme_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/no"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/TVLost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/empty_string"
+            android:textSize="15sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/TVLost2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/empty_string"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</ScrollView>

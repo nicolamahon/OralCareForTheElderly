@@ -5,13 +5,12 @@
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/Pass2_register"
+        android:id="@+id/mouthOpen"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="#fff"
         android:orientation="vertical"
-        tools:context="com.projects.nicola.oralcarefortheelderly.Register"
-        tools:showIn="@layout/activity_register">
+        tools:context="com.projects.nicola.oralcarefortheelderly.MouthOpening">
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"

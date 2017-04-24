@@ -1,12 +1,18 @@
 package com.projects.nicola.oralcarefortheelderly;
 
 import android.content.Context;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
+
+//import me.relex.circleindicator.CircleIndicator;
 
 /**
  * Created by Nicola on 2017-04-23.
@@ -32,7 +38,7 @@ public class OralcareSwipeAdapter extends PagerAdapter{
     @Override
     public boolean isViewFromObject(View view, Object object) {
 
-        return (view == (RelativeLayout)object);
+        return (view == (ScrollView)object);
     }
 
     public Object instantiateItem(ViewGroup container, int position)
@@ -44,8 +50,9 @@ public class OralcareSwipeAdapter extends PagerAdapter{
         TextView textView2 = (TextView)item_view.findViewById(R.id.image_count_oralcare);
         TextView textView3 = (TextView)item_view.findViewById(R.id.oralcareInfo);
 
+
         textView1.setText(header_strings[position]);
-        textView2.setText("Swipe for more...>>>   "+(position+1)+"/"+header_strings.length);
+        textView2.setText((position+1)+"/"+header_strings.length);
         textView3.setText(body_strings[position]);
 
         container.addView(item_view);
@@ -54,7 +61,7 @@ public class OralcareSwipeAdapter extends PagerAdapter{
 
     public void destroyItem (ViewGroup container, int position, Object object)
     {
-        container.removeView((RelativeLayout)object);
+        container.removeView((ScrollView)object);
     }
 
 }

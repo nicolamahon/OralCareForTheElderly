@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 /**
@@ -34,7 +35,7 @@ public class GumDiseaseSwipeAdapter extends PagerAdapter{
     @Override
     public boolean isViewFromObject(View view, Object object) {
 
-        return (view == object);
+        return (view == (ScrollView)object);
     }
 
     public Object instantiateItem(ViewGroup container, int position)
@@ -44,13 +45,11 @@ public class GumDiseaseSwipeAdapter extends PagerAdapter{
 
         ImageView imageView = (ImageView)item_view.findViewById(R.id.gumDiseaseIMGs);
         TextView textView1 = (TextView)item_view.findViewById(R.id.gumDiseaseHeader);
-        TextView textView2 = (TextView)item_view.findViewById(R.id.image_count_gumdisease);
-        TextView textView3 = (TextView)item_view.findViewById(R.id.gumDiseaseInfo);
+        TextView textView2 = (TextView)item_view.findViewById(R.id.gumDiseaseInfo);
 
         imageView.setImageResource(image_resources[position]);
         textView1.setText(gumDiseaseHeader_strings[position]);
-        textView2.setText("Swipe for more...>>>   "+(position+1)+"/"+image_resources.length);
-        textView3.setText(gumDiseaseBody_strings[position]);
+        textView2.setText(gumDiseaseBody_strings[position]);
 
         container.addView(item_view);
         return item_view;

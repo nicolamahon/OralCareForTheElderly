@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/colorWhite"
     tools:context="com.projects.nicola.oralcarefortheelderly.GumDiseaseMain">
 
@@ -14,5 +15,13 @@
         android:id="@+id/view_pager_gumdisease">
     </android.support.v4.view.ViewPager>
 
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabDots"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabBackground="@drawable/page_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"/>
 
-</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

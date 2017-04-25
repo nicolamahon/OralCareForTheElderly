@@ -155,6 +155,16 @@
     <string name="google_android_map_api_key"> Map API key </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="contact_us">Contact Us</string>
+    <string name="Dry_mouth">Dry Mouth Remedies</string>
+    <string name="P_care">Patient Care Menu</string>
+    <string name="S_care">Self Care Menu</string>
+    <string name="information">Useful Information</string>
+    <string name="access_token">pk.eyJ1IjoiYXJvbmI5MCIsImEiOiJjajF4ZTdtMHcwMDBrMzJvMTQ2Zjl0MGdrIn0.Op8xU8ku6G1yuawvY_VEvw</string>
+    <string name="Contact_page1">Contact us for more information, to book a consultation, to ask any kind of questions you might have or even to chat and let us know what we are doing great and where we need to improve.</string>
+    <string name="Contact_page3">Home Care Clinics:\n Talk to Matthew or send an enquiry;\n Phone: 01 4551866\n Email: athome@dentaltech.ie\nOpening hours are\n MON – FRI 8:30 – 17:30</string>
+    <string name="Contact_page4">Nursing Home Clinics:\n Talk to Matthew or send an \nenquiry; \nPhone: 01 4551866\n Email: \nnursinghome@dentaltech.ie\nOpening hours are\n MON – FRI 8:30 – 17:30</string>
+    <string name="Contact_page5">Corporate Dental:\n Talk to Bevin or send an enquiry;\nPhone: 01 4551866 \nEmail: corporate@dentaltech.ie\nOpening hours are \nMON – FRI 8:30 – 17:30</string>
+    <string name="Contact_page2">Denture Clinics:\n Talk to Amy or book in online;\n Phone: 01 4551 866\n Email: clinics@dentaltech.ie \n Opening hours are \nMON – FRI 8:30 – 17:30</string>
     <string name="title_activity_broken__denture">Broken_Denture</string>
     <string name="title_activity_lost__denture">Lost_Denture</string>
     <string name="title_activity_emergancy">Emergancy</string>
@@ -162,7 +172,7 @@
     <string name="test">test_string_do_not_delete</string>
 
     <string name="cleanHead1">Cleaning Dentures</string>
-    <string name="cleanInfo1">The best way to help reduce the build-up of bacteria and staining is by having a strict daily caring and cleaning routine.\n\nThe following 5 steps will help you take good care of your dentures...</string>
+    <string name="cleanInfo1">The best way to help reduce the build-up of bacteria and staining is by having a strict daily caring and cleaning routine.\n\nThe following 5 steps will help you take good care of your dentures (#8230)</string>
     <string name="cleanHead2">1. Give them a break!</string>
     <string name="cleanInfo2">Soaking them in a good denture disinfectant can kill 99% percent of denture germs.\n\nWe recommend using Nitradine tablets for soaking as it only takes 15 minutes.\n\nMost denture disinfectants have a mild bleaching agent which overtime can change the colour of your dentures so check your denture cleaner first to make sure it will disinfect them in a short time rather than leaving them overnight.\n\nBUT PLEASE CLEAN THEM FIRST.</string>
     <string name="cleanHead3">2. Clean them daily! </string>
@@ -177,5 +187,6 @@
     <string name="thrushHead">Denture Thrush</string>
     <string name="cancerInfo1">Pain is usually not a symptom of the disease</string>
     <string name="cancerInfo2">It is important to notice the early signs of oral cancer.\n\n● Swellings\n\n● Red or white patches\n\n● Sores\n\n● Numbness or lumps anywhere</string>
+    <string name="gum_disease">Gum Disease</string>
 
 </resources>

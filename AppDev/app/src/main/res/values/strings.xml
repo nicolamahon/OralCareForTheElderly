@@ -141,7 +141,7 @@
     <string name="private_replacement">We will provide the replacement denture privately.</string>
     <string name="call_denture">Please Call Dental Tech Group on 01 455 1866 with the residents Name and above details</string>
     <string name="denture_cover">The denture will be covered by the medical card scheme. We need to send for approval from the HSE for the denture and this can take up to 6 weeks. Treatment cannot start until the approval is received. Treatment will then take six weeks to complete.</string>
-    <string name="before_call"><![CDATA[Before calling Dental Tech Group, please check the following information so that we can make an assessment of need & urgency.]]></string>
+    <string name="before_call"><![CDATA[Before calling Dental Tech Group, please check the following information so that we can make an assessment of need and urgency.]]></string>
     <string name="em_q1">1. Is the patient capable of expressing/identifying the source of their pain?</string>
     <string name="em_q2">2. Has the GP been able to identify the source of the pain?</string>
     <string name="em_q3">3. Was the patient kept awake with the pain or becoming agitated?</string>
@@ -158,8 +158,20 @@
     <string name="title_activity_broken__denture">Broken_Denture</string>
     <string name="title_activity_lost__denture">Lost_Denture</string>
     <string name="title_activity_emergancy">Emergancy</string>
-    <string name="care_for_dentures">Care For Dentures</string>
+    <string name="careForDentures">Caring For Dentures</string>
     <string name="test">test_string_do_not_delete</string>
 
+    <string name="cleanHead1">Cleaning Dentures</string>
+    <string name="cleanInfo1">The best way to help reduce the build-up of bacteria and staining is by having a strict daily caring and cleaning routine.\n\nThe following 5 steps will help you take good care of your dentures...</string>
+    <string name="cleanHead2">1. Give them a break!</string>
+    <string name="cleanInfo2">Soaking them in a good denture disinfectant can kill 99% percent of denture germs.\n\nWe recommend using Nitradine tablets for soaking as it only takes 15 minutes.\n\nMost denture disinfectants have a mild bleaching agent which overtime can change the colour of your dentures so check your denture cleaner first to make sure it will disinfect them in a short time rather than leaving them overnight.\n\nBUT PLEASE CLEAN THEM FIRST.</string>
+    <string name="cleanHead3">2. Clean them daily! </string>
+    <string name="cleanInfo3">Brush your dentures with a regular soft-bristled brush or dish brush, use warm water and some washing up liquid, yes washing up liquid.\n\nToothpaste is an abrasive material designed to work best on the enamel of your teeth  so toothpaste can actually damage the surface of your dentures.\n\nAs dentures are a type of plastic they are best cleaned with washing up liquid or soap.</string>
+    <string name="cleanHead4">3. Don’t forget your gums!</string>
+    <string name="cleanInfo4">Remember to always give your mouth a good rinse when you take out your dentures and then to massage your gums with a washcloth or a soft toothbrush.\n\nUse a pea sized amount of toothpaste on the brush and gently rub around the inside of your cheeks, gums and tongue to stimulate them and help promote a healthy mouth.</string>
+    <string name="cleanHead5">4. Handle them with love! </string>
+    <string name="cleanInfo5">You should love your denture, it is part of you and it is fragile, make sure you handle them carefully.\n\nWash over a plastic bowl full of water or a folded towel so as to reduce the risk of dropping them in the sink or on the floor.</string>
+    <string name="cleanHead6">5. Make sure it fits! </string>
+    <string name="cleanInfo6">If your denture is not fitting properly, functioning well or it just doesn’t look great on you, don’t hesitate calling Dental Tech Group (www.dentaltech.ie) to book in for your Free Denture consultation with one of our experienced treatment plan coordinators.</string>
 
 </resources>

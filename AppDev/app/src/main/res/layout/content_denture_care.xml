@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.projects.nicola.oralcarefortheelderly.DentureCare"
-    tools:showIn="@layout/activity_denture_care"
-    android:background="@drawable/header"
-    android:gravity="center">
-
-
-
+    android:background="@drawable/header">
 
     <Button
         android:id="@+id/goToHygiene"
@@ -20,17 +13,27 @@
         android:text="@string/hygieneHead"
         android:onClick="gotoHygiene"
         android:textSize="30sp"
+        android:layout_gravity="center"
         />
 
     <Button
         android:id="@+id/goToCareForDenture"
         android:layout_width="250dp"
         android:layout_height="100dp"
-        android:layout_marginTop="21dp"
-        android:text="@string/care_for_dentures"
+        android:text="@string/careForDentures"
         android:onClick="gotoCareForDent"
-        android:layout_below="@+id/goToHygiene"
         android:textSize="30sp"
+        android:layout_gravity="center"
         />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/goToCleanDentures"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="Cleaning Dentures"
+        android:onClick="gotoCleanDentures"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

@@ -25,4 +25,10 @@ public class DentureCare extends AppCompatActivity {
         Intent careIntent = new Intent(this, CareForDenture.class);
         startActivity(careIntent);
     }
+
+    public void gotoCleanDentures(View view)
+    {
+        Intent careIntent = new Intent(this, CleanDentures.class);
+        startActivity(careIntent);
+    }
 }

@@ -36,7 +36,7 @@ public class DexteritySwipeAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
-        return (view == object);
+        return (view == (ScrollView)object);
     }
 
     public Object instantiateItem(ViewGroup container, int position)
@@ -46,13 +46,11 @@ public class DexteritySwipeAdapter extends PagerAdapter {
 
         ImageView imageView = (ImageView)item_view.findViewById(R.id.dexIMGs);
         TextView textView1 = (TextView)item_view.findViewById(R.id.dexHead);
-        TextView textView2 = (TextView)item_view.findViewById(R.id.image_count_dexterity);
-        TextView textView3 = (TextView)item_view.findViewById(R.id.dexInfo);
+        TextView textView2 = (TextView)item_view.findViewById(R.id.dexInfo);
 
         imageView.setImageResource(image_resources[position]);
         textView1.setText(header_strings[position]);
-        textView2.setText("Swipe for more...>>>   "+(position+1)+"/"+image_resources.length);
-        textView3.setText(body_strings[position]);
+        textView2.setText(body_strings[position]);
 
         container.addView(item_view);
         return item_view;

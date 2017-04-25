@@ -1,44 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.projects.nicola.oralcarefortheelderly.cavities"
-    tools:showIn="@layout/activity_cavities">
-
-    <ImageView
-        android:id="@+id/cavitiesIMG"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/cavity_pic"
-        app:srcCompat="@drawable/dental_cavities_10"
-        android:layout_below="@+id/cavitiesText1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp" />
-
-    <TextView
-        android:id="@+id/cavitiesTitle"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="@string/cavitiesHead"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_gravity="top|center">
 
-    <TextView
-        android:id="@+id/cavitiesText1"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:textSize="20sp"
-        android:text="@string/cavitiesInfo"
-        android:textAlignment="center"
-        android:layout_below="@+id/cavitiesTitle"
-        android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/cavitiesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cavitiesHead"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:padding="@dimen/fab_margin"
+            />
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/cavitiesIMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/cavity_pic"
+            app:srcCompat="@drawable/dental_cavities_10"
+            android:padding="@dimen/fab_margin"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/cavitiesText1"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="@dimen/fab_margin"
+            android:text="@string/cavitiesInfo"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+</ScrollView>

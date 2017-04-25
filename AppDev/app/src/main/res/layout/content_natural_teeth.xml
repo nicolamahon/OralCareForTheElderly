@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.projects.nicola.oralcarefortheelderly.NaturalTeeth"
-    tools:showIn="@layout/activity_natural_teeth"
-    android:background="@drawable/header"
-    android:gravity="center" >
-
+    android:background="@drawable/header">
 
     <Button
         android:id="@+id/goToCavities"
@@ -18,7 +13,7 @@
         android:text="@string/cavities"
         android:onClick="gotoCavity"
         android:textSize="30sp"
-        />
+        android:layout_gravity="center"/>
 
     <Button
         android:id="@+id/goToPlaque"
@@ -27,8 +22,17 @@
         android:layout_marginTop="21dp"
         android:text="@string/plaque"
         android:onClick="gotoPlaque"
-        android:layout_below="@+id/goToCavities"
         android:textSize="30sp"
-        />
+        android:layout_gravity="center"/>
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/goToGumDisease"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="21dp"
+        android:text="Gum Disease"
+        android:onClick="gotoGumDis"
+        android:textSize="30sp"
+    android:layout_gravity="center"/>
+
+</LinearLayout>

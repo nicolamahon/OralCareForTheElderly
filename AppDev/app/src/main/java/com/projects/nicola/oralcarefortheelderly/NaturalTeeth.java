@@ -19,14 +19,20 @@ public class NaturalTeeth extends AppCompatActivity {
 
     public void gotoCavity(View view)
     {
-        Intent cavityIntent = new Intent(this, cavities.class);
-        startActivity(cavityIntent);
+        Intent newIntent = new Intent(this, cavities.class);
+        startActivity(newIntent);
     }
 
     public void gotoPlaque(View view)
     {
-        Intent plaqueIntent = new Intent(this, Plaque.class);
-        startActivity(plaqueIntent);
+        Intent newIntent = new Intent(this, Plaque.class);
+        startActivity(newIntent);
+    }
+
+    public void gotoGumDis(View view)
+    {
+        Intent newIntent = new Intent(this, GumDiseaseMain.class);
+        startActivity(newIntent);
     }
 
 }

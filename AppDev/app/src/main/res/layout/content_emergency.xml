@@ -14,19 +14,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:textAlignment="center"
-             >
+            android:textAlignment="center" >
 
             <TextView
-                android:id="@+id/Emergency_Statment"
+                android:id="@+id/Emergency_Statement"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="@string/before_call"
                 android:textSize="15sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/em1"

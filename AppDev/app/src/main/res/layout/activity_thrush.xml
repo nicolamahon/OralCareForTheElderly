@@ -3,9 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.projects.nicola.oralcarefortheelderly.OralHealth">
+    tools:context="com.projects.nicola.oralcarefortheelderly.Thrush">
 
-    <include layout="@layout/content_oral_health" />
+    <include layout="@layout/content_thrush" />
 
 </android.support.design.widget.CoordinatorLayout>
-

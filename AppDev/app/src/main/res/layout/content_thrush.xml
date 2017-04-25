@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center">
+
+        <TextView
+            android:id="@+id/thrushHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="@string/thrushHead"
+            />
+
+        <ImageView
+            android:id="@+id/thrushIMG"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/thrush_36"
+            />
+
+        <TextView
+            android:id="@+id/thrushInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginBottom="40dp"
+            android:text="@string/thrushInfo"
+            />
+
+    </LinearLayout>
+</ScrollView>

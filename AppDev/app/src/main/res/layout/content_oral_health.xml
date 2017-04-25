@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header">
+
+    <Button
+        android:id="@+id/goToCavities"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="@string/cavities"
+        android:onClick="gotoCavity"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/goToPlaque"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/plaque"
+        android:onClick="gotoPlaque"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/goToGumDisease"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="21dp"
+        android:text="Gum Disease"
+        android:onClick="gotoGumDis"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/goToThrush"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="21dp"
+        android:text="Denture Thrush"
+        android:onClick="gotoThrush"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/goToCancer"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="21dp"
+        android:text="Oral Cancer"
+        android:onClick="gotoCancer"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

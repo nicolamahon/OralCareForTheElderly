@@ -13,8 +13,6 @@ public class NaturalTeeth extends AppCompatActivity {
         setContentView(R.layout.activity_natural_teeth);
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
 
-
-
     }
 
     public void gotoCavity(View view)

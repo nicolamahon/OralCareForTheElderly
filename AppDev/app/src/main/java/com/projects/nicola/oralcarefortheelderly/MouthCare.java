@@ -20,4 +20,16 @@ public class MouthCare extends AppCompatActivity {
         startActivity(newIntent);
     }
 
+    public void gotoDryMouth (View view)
+    {
+        Intent newIntent = new Intent(this, DryMouthRemedies.class);
+        startActivity(newIntent);
+    }
+
+    public void gotoDexterity (View view)
+    {
+        Intent newIntent = new Intent(this, DexterityIssues.class);
+        startActivity(newIntent);
+    }
+
 }

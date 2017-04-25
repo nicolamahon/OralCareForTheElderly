@@ -128,6 +128,9 @@
         <activity android:name=".Thrush"
             android:label="Denture Thrush"
             android:parentActivityName=".OralHealth"/>
+        <activity android:name=".Cancer"
+            android:label="Oral Cancer"
+            android:parentActivityName=".OralHealth"/>
 
     </application>
 

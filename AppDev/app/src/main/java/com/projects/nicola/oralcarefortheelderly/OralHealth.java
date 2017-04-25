@@ -37,11 +37,11 @@ public class OralHealth extends AppCompatActivity {
         Intent newIntent = new Intent(this, Thrush.class);
         startActivity(newIntent);
     }
-    /*
+
     public void gotoCancer (View view)
     {
         Intent newIntent = new Intent(this, Cancer.class);
         startActivity(newIntent);
     }
-    */
+
 }

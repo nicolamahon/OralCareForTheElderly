@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center">
+
+        <TextView
+            android:id="@+id/cancerHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="@dimen/fab_margin"
+            android:text="Early Signs of Oral Cancer"
+            />
+
+        <ImageView
+            android:id="@+id/cancerIMG"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cancer_42"
+            android:padding="@dimen/fab_margin"
+            />
+
+        <TextView
+            android:id="@+id/cancerInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="@dimen/fab_margin"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/cancerInfo1"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/cancerInfo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="@dimen/fab_margin"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:text="It is important to notice the early signs of oral cancer.\n\n● Swellings\n\n● Red or white patches\n\n● Sores\n\n● Numbness or lumps anywhere"
+            />
+
+    </LinearLayout>
+</ScrollView>

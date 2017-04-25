@@ -1,55 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.projects.nicola.oralcarefortheelderly.Plaque"
-    tools:showIn="@layout/activity_plaque">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center">
 
     <TextView
         android:id="@+id/plaqueTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:padding="@dimen/fab_margin"
         android:text="@string/plaqueHead"
+        android:textAlignment="center"
         android:textSize="30sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_gravity="center"
+         />
 
     <ImageView
         android:id="@+id/plaqueIMG"
         android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         app:srcCompat="@drawable/plaque_14"
-        android:layout_below="@+id/plaqueTitle"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
+        android:layout_gravity="center"
+         />
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="320dp"
+        android:id="@+id/plaqueInfo1"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="@string/plaqueInfo1"
-        android:textSize="20sp"
-        android:layout_below="@+id/plaqueIMG"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp" />
+        android:textSize="24sp"
+        android:padding="@dimen/fab_margin"
+        android:layout_gravity="center"
+         />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="280dp"
+        android:id="@+id/plaqueInfo2"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textStyle="italic|bold"
         android:contentDescription="plaqueImage"
+        android:padding="@dimen/fab_margin"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
         android:text="@string/plaqueInfo2"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp" />
+        />
 
-</RelativeLayout>
+</LinearLayout>
+</ScrollView>

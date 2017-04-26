@@ -17,7 +17,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 
@@ -25,7 +24,6 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
 
 
     private Context context;
-    private AlertDialog alertDialog;
 
     public backgroundWorker(Context ctx) {
 
@@ -131,7 +129,7 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
 
     @Override
     protected void onPreExecute() {
-        alertDialog = new AlertDialog.Builder(context).create();
+        AlertDialog alertDialog = new AlertDialog.Builder(context).create();
         alertDialog.setTitle("Login Status");
 
     }
@@ -142,13 +140,13 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
         {
             Intent i = new Intent(context,MainActivity.class);
             context.startActivity(i);
-            Toast.makeText(context, result+"Please Login to continue", Toast.LENGTH_LONG).show();
+            Toast.makeText(context,"You are now "+ result+", Please Login to continue", Toast.LENGTH_LONG).show();
         }
-        else if(result.contains("Welcome"))
+        else if(result.contains(result))
         {
             Intent i = new Intent(context,MenuOptions.class);
             context.startActivity(i);
-            Toast.makeText(context, result+"name", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, result, Toast.LENGTH_LONG).show();
         }
         else
         {

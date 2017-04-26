@@ -34,6 +34,7 @@ Together we came up with a simple design; the app would be an information reposi
 
 <i><b>Appearance of APP</b></i><br>
 The app will be menu driven. The concept is that user's will select the menu option that is most specific to their needs. 
+Responsibility for the design of the app, including the app icon, were freely given to us by the business owner. 
 
 <i><b>Landing Page</b></i><br>
 Here the user has the opportunity to register as a user and login to the content via a web-hosted database that we created as part of the project. There is also an option to view contact information for Dental Tech Group without having to login or register. The decision to restrict access to the content was a decision made by the business owner.  
@@ -70,14 +71,19 @@ In order to complete this project, we had to do a large amount of self directed 
 
 Some of the things we learned on this project include:
 - dealing with merge conflicts both in Android VCS and using the Git Shell
-- accessing the developer settings on our Android devices
-- 
+- how to hack the developer settings on our Android devices
+- how to connect a database to an app 
+- how to use Android Studio to design and build an app
+- implementing different Layout Views to optimise the UI of the app
+- how to hack together ideas/solutions using various resources like YoutTube tutorials, StackOverflow and other internet sources. 
 
 <i><b>Things We Are Proud Of</b></i><br>
+- the extent of self-directed learning
 - scroll view implementation
 - swipe view implementation
 - successfully managing the project remotely using GitHub
 - building an online database and successfully linking it to the app
+- the fact that the app is so robust and looks quite professional
 
 
 <b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app, showing a typical navgation through the content: </b>

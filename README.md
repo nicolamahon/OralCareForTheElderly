@@ -15,8 +15,8 @@ To begin the requirements gathering we met with the business owner to discuss th
 <b>DESIGN</b><br>
 Together we came up with a simple design; the app would be an information repository with a menu-lead interface, incorporating a database and with access to content in a restricted area through user-registration. 
 
-<hr><i><b>Functionality</b></i>
-- A repository for oral health care learning tools and techniques
+<hr><i><b>Functionality</b></i><br>
+- A repository for oral health care learning tools and techniques <br>
 - Restricted access for Dental Tech Group clients
 
 <i><b>Special Requirements</b></i>
@@ -104,7 +104,7 @@ Some of the things we learned on this project include:
 
 <b><i>NOTE:</i></b> As the content of this app has been written and provided to us by Dental Tech Group for the purposes of this project, this GitHub repository will be made private after this assignment has been graded.
 
-That's it, we hope you enjoy the app and perhaps find it a useful tool. 
+That's it, we hope you enjoy the app and perhaps find it interesting. 
 
 <b>CONTRIBUTORS</b><br>
 - Aaron Byrne (DT228)

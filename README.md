@@ -1,6 +1,10 @@
 # Oral Care for the Elderly
 This mobile app was designed in conjunction with Dental Tech Group, to support the learning of oral care procedures for dental and nursing-home staff, in providing care to the elderly.
 
+<b>Click image below to play video:</b>
+
+[![Video](http://img.youtube.com/vi/7liHKVstD8Y/0.jpg)](http://www.youtube.com/watch?v=7liHKVstD8Y)
+
 <b>Project Overview</b>
 This mobile app was designed as part of 2nd year Object Oriented Programming assignment. We were given free reign to build anything we like, in any language, using any tools or software we desired. We, the <i>IT Crowd</i>, decided that despite having no previous experience of mobile app development, we would like to push ourselves to build something using completely new tools, new to us at least.<br><br>
 In deciding what exactly to make as mobile app, we approached a business owner who had expressed an interested in building an app, and who like us, had no previous experience of such a project. We met with the business owner to discuss if this might be a feasible project from both sides. It would be an opportunity for us to build something that someone wanted, and provide the business owner with an opportunity to discover how mobiles apps were designed and built from a business point of view. Both parties were in agreement, we were in uncharted territory, but we were there together. 
@@ -24,7 +28,13 @@ Together we came up with a simple design; the app would be an information reposi
 - Large font types for support to the visualy impaired
 - Imagery where possible to assist with those with learning difficulties/illiteracy/non-English speakers
 
-<i>Appearance of APP
+<table>
+	<tr>
+		<td>![Image1](/screenshots/image1.JPG?raw=true "Image1")</td>
+	</tr>
+</table>
+
+<i>Appearance of APP</i>
 The app will be menu driven.
 There will be a option to sign up for newsletters for the users or to sign in to the users database.
 There will be 4 main menu options to establish what customer type you are. 

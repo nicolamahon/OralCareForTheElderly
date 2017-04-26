@@ -155,8 +155,8 @@
     <string name="Contact_page4">Nursing Home Clinics:\n Talk to Matthew or send an \nenquiry; \nPhone: 01 4551866\n Email: \nnursinghome@dentaltech.ie\nOpening hours are\n MON – FRI 8:30 – 17:30</string>
     <string name="Contact_page5">Corporate Dental:\n Talk to Bevin or send an enquiry;\nPhone: 01 4551866 \nEmail: corporate@dentaltech.ie\nOpening hours are \nMON – FRI 8:30 – 17:30</string>
     <string name="Contact_page2">Denture Clinics:\n Talk to Amy or book in online;\n Phone: 01 4551 866\n Email: clinics@dentaltech.ie \n Opening hours are \nMON – FRI 8:30 – 17:30</string>
-    <string name="title_activity_broken__denture">Broken_Denture</string>
-    <string name="title_activity_lost__denture">Lost_Denture</string>
+    <string name="title_activity_broken__denture">Broken Denture</string>
+    <string name="title_activity_lost__denture">Lost Denture</string>
     <string name="careForDentures">Caring For Dentures</string>
     <string name="test">test_string_do_not_delete</string>
 

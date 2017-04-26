@@ -1,10 +1,10 @@
 # Oral Care for the Elderly		![app_icon_opaque](/screenshots/app_icon_opaque.png?raw=true "app_icon_opaque")
 This mobile app was designed in conjunction with Dental Tech Group, to support the learning of oral care procedures for dental and nursing-home staff, in providing care to the elderly.
 
-<b>Contributors</b>
-Aaron Byrne (DT228)
-Nicola Mahon (DT228)
-Bevin Murray (Dental Tech Group)
+<b>Contributors</b><br>
+- Aaron Byrne (DT228)
+- Nicola Mahon (DT228)
+- Bevin Murray (Dental Tech Group)
 
 
 <b>Click image below to play video:</b>
@@ -21,33 +21,33 @@ To begin the requirements gathering we met with the business owner to discuss th
 <b>Design</b><br>
 Together we came up with a simple design; the app would be an information repository with a menu-lead interface, incorporating a database and with access to content in a restricted area through user-registration. 
 
-<i>Functionality:</i>
+<i><b>Functionality:</b></i>
 - A repository for oral health care learning tools and techniques
 - Restricted access for Dental Tech Group clients
 - Option to sign up for mailing list
 
-<i>Special Requirements</i>
+<i><b>Special Requirements</b></i>
 - Simple and intuitive design to suppport a majoratively aged user group
 - Interface buttons or links to be large for users with dexterity issues
 - Large font types for support to the visualy impaired
 - Imagery where possible to assist with those with learning difficulties/illiteracy/non-English speakers
 
-<i>Appearance of APP</i><br>
+<i><b>Appearance of APP</b></i><br>
 The app will be menu driven. The concept is that user's will select the menu option that is most specific to their needs. 
 
-<i>Landing Page</i><br>
+<i><b>Landing Page</b></i><br>
 Here the user has the opportunity to register as a user and login to the content via a web-hosted database that we created as part of the project. There is also an option to view contact information for Dental Tech Group without having to login or register. The decision to restrict access to the content was a decision made by the business owner.  
 
 ![landing_page](/screenshots/landing_page.png?raw=true "landing_page")
 
-<i>Main Menu</i><br>
+<i><b>Main Menu</b></i><br>
 The main menu options help to direct the user to the appropriate area of interest. 
 1) Self Care - aimed at general users
 2) Patient Care - specifically aimed at Carers/Nurses caring for Patients
 
 ![main_menu](/screenshots/main_menu.png?raw=true "main_menu")
 
-<i>Self Care</i><br>
+<i><b>Self Care</b></i><br>
 This menu takes the user to a view where they can select from a number of further menu options.
 1) Natural Teeth
 2) Denture Care
@@ -58,10 +58,26 @@ This menu takes the user to a view where they can select from a number of furthe
 7) Why Oral Care is Important
 8) Difficulty with Mouth Opening
 
+<i><b>Self Care</b></i><br>
+
 ![self_care_menu](/screenshots/self_care_menu.png?raw=true "self_care_menu")
 
-<i>Self Care - Sub Menus</i><br>
+<i><b>Self Care - Sub Menus</b></i><br>
 These sub menus take the user to tutorials and information on various oral health issues. 
+
+<i><b>Sef Directed Learning</b></i><br>
+In order to complete this project, we had to do a large amount of self directed learning, initially building some very simple apps using Android Studio in order to familiarise ourselves with the technology and concepts involved. 
+
+Some of the things we learned on this project include:
+- dealing with merge conflicts both in Android VCS and using the Git Shell
+- accessing the developer settings on our Android devices
+- 
+
+<i><b>Things We Are Proud Of</b></i><br>
+- scroll view implementation
+- swipe view implementation
+- successfully managing the project remotely using GitHub
+- building an online database and successfully linking it to the app
 
 
 <b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app, showing a typical navgation through the content: </b>

@@ -1,7 +1,7 @@
 # Oral Care for the Elderly		![app_icon_opaque](/screenshots/app_icon_opaque.png?raw=true "app_icon_opaque")
 This mobile app was designed in conjunction with Dental Tech Group, to support the learning of oral care procedures for dental and nursing-home staff, in providing care to the elderly.
 
-<b>Contributors</b><br>
+<b>CONTRIBUTORS</b><br>
 - Aaron Byrne (DT228)
 - Nicola Mahon (DT228)
 - Bevin Murray (Dental Tech Group)
@@ -11,17 +11,17 @@ This mobile app was designed in conjunction with Dental Tech Group, to support t
 
 [![Video](http://img.youtube.com/vi/7liHKVstD8Y/0.jpg)](http://www.youtube.com/watch?v=7liHKVstD8Y)
 
-<b>Project Overview</b><br>
+<b>PROJECT OVERVIEW</b><br>
 This mobile app was designed as part of 2nd year Object Oriented Programming assignment. We were given free reign to build anything we like, in any language, using any tools or software we desired. We decided that despite having no previous experience of mobile app development, we would like to push ourselves to build something using completely new tools, new to us at least.<br><br>
 In deciding what exactly to make as a mobile app, we approached a business owner who had expressed an interested in building an app, and who like us, had no previous experience of such a project. We met with the business owner to discuss if this might be a feasible project from both sides. It would be an opportunity for us to build something that someone wanted, and provide the business owner with an opportunity to discover how mobile apps were designed and built from a business point of view. Both parties were in agreement, we were in uncharted territory, but we were there together. 
 
-<b>Requirements Gathering</b><br>
+<b>REQUIREMENTS GATHERING</b><br>
 To begin the requirements gathering we met with the business owner to discuss the project goals, and be sure we were on the same page. During the meeting the business owner explained what the app was intented for. It would be a teaching tool for nursing home staff in how to provide oral care to patients in their care, as well as an aid to general members of the public. We discussed with the business owner how the app might function from a technical point of view. The business owner had provided us with a number of information packs relating to the content of the application. Together we tried to fit the information contained in the packs, into a format that would work as part of the app design. 
 
-<b>Design</b><br>
+<b>DESIGN</b><br>
 Together we came up with a simple design; the app would be an information repository with a menu-lead interface, incorporating a database and with access to content in a restricted area through user-registration. 
 
-<i><b>Functionality:</b></i>
+<i><b>Functionality</b></i>
 - A repository for oral health care learning tools and techniques
 - Restricted access for Dental Tech Group clients
 - Option to sign up for mailing list
@@ -32,7 +32,7 @@ Together we came up with a simple design; the app would be an information reposi
 - Large font types for support to the visualy impaired
 - Imagery where possible to assist with those with learning difficulties/illiteracy/non-English speakers
 
-<i><b>Appearance of APP</b></i><br>
+<i><b>Appearance of the App</b></i><br>
 The app will be menu driven. The concept is that user's will select the menu option that is most specific to their needs. 
 Responsibility for the design of the app, including the app icon, were freely given to us by the business owner. 
 
@@ -59,14 +59,12 @@ This menu takes the user to a view where they can select from a number of furthe
 7) Why Oral Care is Important
 8) Difficulty with Mouth Opening
 
-<i><b>Self Care</b></i><br>
-
 ![self_care_menu](/screenshots/self_care_menu.png?raw=true "self_care_menu")
 
 <i><b>Self Care - Sub Menus</b></i><br>
 These sub menus take the user to tutorials and information on various oral health issues. 
 
-<i><b>Sef Directed Learning</b></i><br>
+<b>SELF DIRECTED LEARNING</b><br>
 In order to complete this project, we had to do a large amount of self directed learning, initially building some very simple apps using Android Studio in order to familiarise ourselves with the technology and concepts involved. 
 
 Some of the things we learned on this project include:
@@ -77,7 +75,7 @@ Some of the things we learned on this project include:
 - implementing different Layout Views to optimise the UI of the app
 - how to hack together ideas/solutions using various resources like YoutTube tutorials, StackOverflow and other internet sources. 
 
-<i><b>Things We Are Proud Of</b></i><br>
+<b>THINGS WE ARE PROUD OF</b><br>
 - the extent of self-directed learning
 - scroll view implementation
 - swipe view implementation

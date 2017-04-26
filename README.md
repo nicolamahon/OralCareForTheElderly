@@ -50,6 +50,9 @@ Sub menus that will be implemented
 8)******************************************************
 9)***************************************
 
+
+<b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app: </b>
+
 ![landing_page](/screenshots/landing_page.png?raw=true "landing_page")
 ![register](/screenshots/register.png?raw=true "register")
 ![login](/screenshots/login.png?raw=true "login")
@@ -73,3 +76,4 @@ Sub menus that will be implemented
 ![broken_denture2](/screenshots/broken_denture2.png?raw=true "broken_denture2")
 ![lost_denture1](/screenshots/lost_denture1.png?raw=true "lost_denture1")
 ![lost_denture2](/screenshots/lost_denture2.png?raw=true "lost_denture2")
+![emergency](/screenshots/emergency.png?raw=true "emergency")

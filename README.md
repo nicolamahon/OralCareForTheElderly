@@ -48,7 +48,7 @@ The main menu options help to direct the user to the appropriate area of interes
 2) Patient Care - specifically aimed at Carers/Nurses caring for Patients
 
 ![main_menu](/screenshots/main_menu.png?raw=true "main_menu")
-![patient_care_menu](/screenshots/patient_care_menu.png?raw=true "patient_care_menu")
+![self_care_menu](/screenshots/self_care_menu.png?raw=true "self_care_menu")
 ![patient_care_menu](/screenshots/patient_care_menu.png?raw=true "patient_care_menu")
 
 <i><b>Self Care</b></i><br>
@@ -63,16 +63,17 @@ This menu takes the user to a view where they can select from a number of furthe
 8) Difficulty with Mouth Opening
 
 ![self_care_menu](/screenshots/self_care_menu.png?raw=true "self_care_menu")
-![dexterity1](/screenshots/dexterity1.png?raw=true "dexterity1")
-![drymouth1](/screenshots/drymouth1.png?raw=true "drymouth1")
-![whyoral1](/screenshots/whyoral1.png?raw=true "whyoral1")
+![denture_care_menu](/screenshots/denture_care_menu.png?raw=true "denture_care_menu")
+![oral_health](/screenshots/oral_health.png?raw=true "oral_health")
+![natural_teeth_menu](/screenshots/natural_teeth_menu.png?raw=true "natural_teeth_menu")
 
 <i><b>Self Care - Sub Menus</b></i><br>
 These sub menus take the user to tutorials and information on various oral health issues. Content for these areas was provided by Dental Tech Group. Some of the sub-menus contain duplicate content, as the app redirects to various content sections. This requirement was submitted by the business owner as part of the design specification i.e. some categories of information fall under a number of different menus. To account for this, we designed the app with a number of activies, and linked access to them using buttons and intents in Java. That allowed for an activity to be created just once, but to be available to the user from many different areas within the app interface.
 
-![denture_care_menu](/screenshots/denture_care_menu.png?raw=true "denture_care_menu")
-![oral_health](/screenshots/oral_health.png?raw=true "oral_health")
-![natural_teeth_menu](/screenshots/natural_teeth_menu.png?raw=true "natural_teeth_menu")
+![dexterity1](/screenshots/dexterity1.png?raw=true "dexterity1")
+![drymouth1](/screenshots/drymouth1.png?raw=true "drymouth1")
+![whyoral1](/screenshots/whyoral1.png?raw=true "whyoral1")
+![mouth_open](/screenshots/mouth_open.png?raw=true "mouth_open")
 
 <i><b>Patient Care</b></i><br>
 This section is typically aimed at Carers and Nurses. It takes the user to a view where they can select from a number of further menu options that assist them in deciding on a specific course of action, based on the situation they might be dealing with with a patient i.e. that they have lost or perhaps broken their denture. 

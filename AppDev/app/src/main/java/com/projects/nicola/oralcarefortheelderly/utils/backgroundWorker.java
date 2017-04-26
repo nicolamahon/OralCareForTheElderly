@@ -140,12 +140,15 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
     protected void onPostExecute(String result) {
         if(result.equals("Registered"))
         {
-            Toast.makeText(context, result, Toast.LENGTH_LONG).show();
+            Intent i = new Intent(context,MainActivity.class);
+            context.startActivity(i);
+            Toast.makeText(context, result+"Please Login to continue", Toast.LENGTH_LONG).show();
         }
         else if(result.contains("Welcome"))
         {
             Intent i = new Intent(context,MenuOptions.class);
             context.startActivity(i);
+            Toast.makeText(context, result+"name", Toast.LENGTH_LONG).show();
         }
         else
         {

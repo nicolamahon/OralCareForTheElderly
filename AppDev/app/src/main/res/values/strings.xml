@@ -157,6 +157,7 @@
     <string name="Contact_page2">Denture Clinics:\n Talk to Amy or book in online;\n Phone: 01 4551 866\n Email: clinics@dentaltech.ie \n Opening hours are \nMON – FRI 8:30 – 17:30</string>
     <string name="title_activity_broken__denture">Broken Denture</string>
     <string name="title_activity_lost__denture">Lost Denture</string>
+    <string name="title_activity_emergancy">Emergancy</string>
     <string name="careForDentures">Caring For Dentures</string>
     <string name="test">test_string_do_not_delete</string>
 

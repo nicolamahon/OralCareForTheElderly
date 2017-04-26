@@ -28,9 +28,9 @@ Together we came up with a simple design; the app would be an information reposi
 - Large font types for support to the visualy impaired
 - Imagery where possible to assist with those with learning difficulties/illiteracy/non-English speakers
 
-![app_icon_opaque](/screenshots/app_icon_opaque.png?raw=true "app_icon_opaque")
-![app_icon_opaque](/screenshots/app_icon_opaque.png?raw=true "app_icon_opaque")
-![app_icon_opaque](/screenshots/app_icon_opaque.png?raw=true "app_icon_opaque")
+![app_icon_opaque](/screenshots/app_icon_opaque2.png?raw=true "app_icon_opaque")
+![app_icon_opaque](/screenshots/app_icon_opaque2.png?raw=true "app_icon_opaque")
+![app_icon_opaque](/screenshots/app_icon_opaque2.png?raw=true "app_icon_opaque")
 
 
 <i>Appearance of APP</i>

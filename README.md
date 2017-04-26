@@ -62,7 +62,21 @@ This menu takes the user to a view where they can select from a number of furthe
 ![self_care_menu](/screenshots/self_care_menu.png?raw=true "self_care_menu")
 
 <i><b>Self Care - Sub Menus</b></i><br>
-These sub menus take the user to tutorials and information on various oral health issues. 
+These sub menus take the user to tutorials and information on various oral health issues. Content for these areas was provided by Dental Tech Group. Some of the sub-menus contain duplicate content, as the app redirects to various content sections. This requirement was submitted by the business owner as part of the design specification i.e. some categories of information fall under a number of different menus. To account for this, we designed the app with a number of activies, and linked access to them using buttons and intents in Java. That allowed for an activity to be created just once, but to be available to the user from many different areas within the app interface.
+
+![denture_care_menu](/screenshots/denture_care_menu.png?raw=true "denture_care_menu")
+![oral_health_menu](/screenshots/oral_health_menu.png?raw=true "oral_health_menu")
+![natural_teeth_menu](/screenshots/natural_teeth_menu.png?raw=true "natural_teeth_menu")
+
+<i><b>Patient Care</b></i><br>
+This menu takes the user to a view where they can select from a number of further menu options.
+1) Change in Residents
+2) Broken Dentures
+3) Lost Denture
+4) Emergency Services
+
+![patient_care_menu](/screenshots/patient_care_menu.png?raw=true "patient_care_menu")
+
 
 <b>SELF DIRECTED LEARNING</b><br>
 In order to complete this project, we had to do a large amount of self directed learning, initially building some very simple apps using Android Studio in order to familiarise ourselves with the technology and concepts involved. 

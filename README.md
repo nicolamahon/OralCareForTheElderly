@@ -15,8 +15,7 @@ To begin the requirements gathering we met with the business owner to discuss th
 <b>DESIGN</b><br>
 Together we came up with a simple design; the app would be an information repository with a menu-lead interface, incorporating a database and with access to content in a restricted area through user-registration. 
 
-<hr>
-<i><b>Functionality</b></i>
+<hr><i><b>Functionality</b></i>
 - A repository for oral health care learning tools and techniques
 - Restricted access for Dental Tech Group clients
 
@@ -113,7 +112,7 @@ That's it, we hope you enjoy the app and perhaps find it a useful tool.
 - Bevin Murray (Dental Tech Group)
 
 <hr>
-<b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app, showing a typical navgation through the content:</b>
+<b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app, showing a typical navgation through the content:</b><br><br>
 
 ![landing_page](/screenshots/landing_page.png?raw=true "landing_page")
 ![login](/screenshots/login.png?raw=true "login")

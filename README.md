@@ -28,10 +28,6 @@ Together we came up with a simple design; the app would be an information reposi
 - Large font types for support to the visualy impaired
 - Imagery where possible to assist with those with learning difficulties/illiteracy/non-English speakers
 
-![app_icon_opaque](/screenshots/app_icon_opaque2.png?raw=true "app_icon_opaque")
-![app_icon_opaque](/screenshots/app_icon_opaque2.png?raw=true "app_icon_opaque")
-![app_icon_opaque](/screenshots/app_icon_opaque2.png?raw=true "app_icon_opaque")
-
 
 <i>Appearance of APP</i>
 The app will be menu driven.
@@ -53,4 +49,29 @@ Sub menus that will be implemented
 7) Things to look out for
 8)******************************************************
 9)***************************************
+
+![app_icon_opaque](/screenshots/app_icon_opaque2.png?raw=true "app_icon_opaque")
+![broken_denture1](/screenshots/broken_denture1.png?raw=true "broken_denture1")
+![broken_denture2](/screenshots/broken_denture2.png?raw=true "broken_denture2")
+![denture_care_menu](/screenshots/denture_care_menu.png?raw=true "denture_care_menu")
+![dexterity1](/screenshots/dexterity1.png?raw=true "dexterity1")
+![dexterity2](/screenshots/dexterity2.png?raw=true "dexterity2")
+![drymouth1](/screenshots/drymouth1.png?raw=true "drymouth1")
+![drymouth2](/screenshots/drymouth2.png?raw=true "drymouth2")
+![gum_disease_causes](/screenshots/gum_disease_causes.png?raw=true "gum_disease_causes")
+![gum_disease_signs](/screenshots/gum_disease_signs.png?raw=true "gum_disease_signs")
+![landing_page](/screenshots/landing_page.png?raw=true "landing_page")
+![login](/screenshots/login.png?raw=true "login")
+![lost_denture1](/screenshots/lost_denture1.png?raw=true "lost_denture1")
+![lost_denture2](/screenshots/lost_denture2.png?raw=true "lost_denture2")
+![main_menu](/screenshots/main_menu.png?raw=true "main_menu")
+![mouth_open](/screenshots/mouth_open.png?raw=true "mouth_open")
+![oral_health](/screenshots/oral_health.png?raw=true "oral_health")
+![patient_care_menu](/screenshots/patient_care_menu.png?raw=true "patient_care_menu")
+![register](/screenshots/register.png?raw=true "register")
+![resident1](/screenshots/resident1.png?raw=true "resident1")
+![resident2](/screenshots/resident2.png?raw=true "resident2")
+![self_care_menu](/screenshots/self_care_menu.png?raw=true "self_care_menu")
+![useful_info](/screenshots/useful_info.png?raw=true "useful_info")
+![whyoral1](/screenshots/whyoral1.png?raw=true "whyoral1")
 

@@ -65,7 +65,7 @@ This menu takes the user to a view where they can select from a number of furthe
 These sub menus take the user to tutorials and information on various oral health issues. Content for these areas was provided by Dental Tech Group. Some of the sub-menus contain duplicate content, as the app redirects to various content sections. This requirement was submitted by the business owner as part of the design specification i.e. some categories of information fall under a number of different menus. To account for this, we designed the app with a number of activies, and linked access to them using buttons and intents in Java. That allowed for an activity to be created just once, but to be available to the user from many different areas within the app interface.
 
 ![denture_care_menu](/screenshots/denture_care_menu.png?raw=true "denture_care_menu")
-![oral_health_menu](/screenshots/oral_health_menu.png?raw=true "oral_health_menu")
+![oral_health](/screenshots/oral_health.png?raw=true "oral_health")
 ![natural_teeth_menu](/screenshots/natural_teeth_menu.png?raw=true "natural_teeth_menu")
 
 <i><b>Patient Care</b></i><br>

@@ -16,8 +16,8 @@ To begin the requirements gathering we met with the business owner to discuss th
 Together we came up with a simple design; the app would be an information repository with a menu-lead interface, incorporating a database and with access to content in a restricted area through user-registration. 
 
 <hr>
-<i><b>Functionality</b></i><br>
-- A repository for oral health care learning tools and techniques <br>
+<i><b>Functionality</b></i>
+- A repository for oral health care learning tools and techniques
 - Restricted access for Dental Tech Group clients <br><br>
 
 <i><b>Special Requirements</b></i>

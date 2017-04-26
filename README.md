@@ -6,10 +6,14 @@ This mobile app was designed in conjunction with Dental Tech Group, to support t
 - Nicola Mahon (DT228)
 - Bevin Murray (Dental Tech Group)
 
+[![Video](http://img.youtube.com/vi/NytrvnN8dhk/0.jpg)](http://www.youtube.com/watch?v=NytrvnN8dhk)
+
+https://youtu.be/N28Om1PuSe4
+https://youtu.be/NytrvnN8dhk
 
 <b>Click image below to play video:</b>
 
-[![Video](http://img.youtube.com/vi/N28Om1PuSe4.jpg)](http://www.youtube.com/watch?v=N28Om1PuSe4)
+[![Video](http://img.youtube.com/vi/N28Om1PuSe4/0.jpg)](http://www.youtube.com/watch?v=N28Om1PuSe4)
 
 <b>PROJECT OVERVIEW</b><br>
 This mobile app was designed as part of 2nd year Object Oriented Programming assignment. We were given free reign to build anything we like, in any language, using any tools or software we desired. We decided that despite having no previous experience of mobile app development, we would like to push ourselves to build something using completely new tools, new to us at least.<br><br>

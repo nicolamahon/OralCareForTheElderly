@@ -1,15 +1,19 @@
 # Oral Care for the Elderly		![app_icon_opaque](/screenshots/app_icon_opaque.png?raw=true "app_icon_opaque")
 This mobile app was designed in conjunction with Dental Tech Group, to support the learning of oral care procedures for dental and nursing-home staff, in providing care to the elderly.
 
+<b>Contributors</b>
+Aaron Byrne (DT228)
+Nicola Mahon (DT228)
+Bevin Murray (Dental Tech Group)
+
+
 <b>Click image below to play video:</b>
 
 [![Video](http://img.youtube.com/vi/7liHKVstD8Y/0.jpg)](http://www.youtube.com/watch?v=7liHKVstD8Y)
 
 <b>Project Overview</b>
-This mobile app was designed as part of 2nd year Object Oriented Programming assignment. We were given free reign to build anything we like, in any language, using any tools or software we desired. We, the <i>IT Crowd</i>, decided that despite having no previous experience of mobile app development, we would like to push ourselves to build something using completely new tools, new to us at least.<br><br>
-In deciding what exactly to make as mobile app, we approached a business owner who had expressed an interested in building an app, and who like us, had no previous experience of such a project. We met with the business owner to discuss if this might be a feasible project from both sides. It would be an opportunity for us to build something that someone wanted, and provide the business owner with an opportunity to discover how mobiles apps were designed and built from a business point of view. Both parties were in agreement, we were in uncharted territory, but we were there together. 
-
-For the purposes of this project we utilised the Waterfall Life Cycle model as our design life cycle. The highlights of the project life cycle are highlighted below.
+This mobile app was designed as part of 2nd year Object Oriented Programming assignment. We were given free reign to build anything we like, in any language, using any tools or software we desired. We decided that despite having no previous experience of mobile app development, we would like to push ourselves to build something using completely new tools, new to us at least.<br><br>
+In deciding what exactly to make as a mobile app, we approached a business owner who had expressed an interested in building an app, and who like us, had no previous experience of such a project. We met with the business owner to discuss if this might be a feasible project from both sides. It would be an opportunity for us to build something that someone wanted, and provide the business owner with an opportunity to discover how mobile apps were designed and built from a business point of view. Both parties were in agreement, we were in uncharted territory, but we were there together. 
 
 <b>Requirements Gathering</b>
 To begin the requirements gathering we met with the business owner to discuss the project goals, and be sure we were on the same page. During the meeting the business owner explained what the app was intented for. It would be a teaching tool for nursing home staff in how to provide oral care to patients in their care, as well as an aid to general members of the public. We discussed with the business owner how the app might function from a technical point of view. The business owner had provided us with a number of information packs relating to the content of the application. Together we tried to fit the information contained in the packs, into a format that would work as part of the app design. 
@@ -28,30 +32,39 @@ Together we came up with a simple design; the app would be an information reposi
 - Large font types for support to the visualy impaired
 - Imagery where possible to assist with those with learning difficulties/illiteracy/non-English speakers
 
-
 <i>Appearance of APP</i>
-The app will be menu driven.
-There will be a option to sign up for newsletters for the users or to sign in to the users database.
-There will be 4 main menu options to establish what customer type you are. 
-1) Carers/Nurses caring for Patients
-2) Self Carers
-3) Emergancy details
-4) Services provided
+The app will be menu driven. The concept is that user's will select the menu option that is most specific to their needs. 
 
+<i>Landing Page</i><br>
+Here the user has the opportunity to register as a user and login to the content via a web-hosted database that we created as part of the project. There is also an option to view contact information for Dental Tech Group without having to login or register. The decision to restrict access to the content was a decision made by the business owner.  
 
-Sub menus that will be implemented
-1) Natural teeth care
+![landing_page](/screenshots/landing_page.png?raw=true "landing_page")
+
+<i>Main Menu</i>
+The main menu options help to direct the user to the appropriate area of interest. 
+1) Self Care - aimed at general users
+2) Patient Care - specifically aimed at Carers/Nurses caring for Patients
+
+![main_menu](/screenshots/main_menu.png?raw=true "main_menu")
+
+<i>Self Care</i>
+This menu takes the user to a view where they can select from a number of further menu options.
+1) Natural Teeth
 2) Denture Care
-3) Mouth Carers
-4) Mouth Opening
+3) Mouth Care
+4) Difficult Mouth Opening 
 5) Dry Mouth
-6) Self-Care
-7) Things to look out for
-8)******************************************************
-9)***************************************
+6) Dexterity Issues
+7) Why Oral Care is Important
+8) Difficulty with Mouth Opening
+
+![self_care_menu](/screenshots/self_care_menu.png?raw=true "self_care_menu")
+
+<i>Self Care - Sub Menus</i>
+These sub menus take the user to tutorials and information on various oral health issues. 
 
 
-<b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app: </b>
+<b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app, showing a typical navgation through the content: </b>
 
 ![landing_page](/screenshots/landing_page.png?raw=true "landing_page")
 ![register](/screenshots/register.png?raw=true "register")
@@ -72,6 +85,7 @@ Sub menus that will be implemented
 ![mouth_open](/screenshots/mouth_open.png?raw=true "mouth_open")
 ![self_care_menu](/screenshots/self_care_menu.png?raw=true "self_care_menu")
 ![whyoral1](/screenshots/whyoral1.png?raw=true "whyoral1")
+![main_menu](/screenshots/main_menu.png?raw=true "main_menu")
 ![patient_care_menu](/screenshots/patient_care_menu.png?raw=true "patient_care_menu")
 ![resident1](/screenshots/resident1.png?raw=true "resident1")
 ![resident2](/screenshots/resident2.png?raw=true "resident2")

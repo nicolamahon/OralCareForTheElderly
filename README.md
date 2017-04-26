@@ -28,8 +28,11 @@ Together we came up with a simple design; the app would be an information reposi
 - Large font types for support to the visualy impaired
 - Imagery where possible to assist with those with learning difficulties/illiteracy/non-English speakers
 
+![Image1](/screenshots/image1.JPG?raw=true "Image1")
 <table>
+![Image1](/screenshots/image1.JPG?raw=true "Image1")
 	<tr>
+	![Image1](/screenshots/image1.JPG?raw=true "Image1")
 		<td>![Image1](/screenshots/image1.JPG?raw=true "Image1")</td>
 	</tr>
 </table>

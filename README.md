@@ -17,7 +17,7 @@ Together we came up with a simple design; the app would be an information reposi
 
 <hr><i><b>Functionality</b></i><br>
 - A repository for oral health care learning tools and techniques <br>
-- Restricted access for Dental Tech Group clients <br>
+- Restricted access for Dental Tech Group clients <br><br>
 
 <i><b>Special Requirements</b></i>
 - Simple and intuitive design to suppport a majoratively aged user group
@@ -89,9 +89,11 @@ In order to complete this project, we had to do a large amount of self directed 
 Some of the things we learned on this project include:
 - dealing with merge conflicts both in Android VCS and using the Git Shell
 - how to hack the developer settings on our Android devices
-- how to connect a database to an app 
+- how to connect a database to an app using PHP within java
 - how to use Android Studio to design and build an app
 - implementing different Layout Views to optimise the UI of the app
+- how to combine xml files and java files for more functionality
+- how to interact with differant API's to improve our app e.g MapBox
 - how to hack together ideas/solutions using various resources like YoutTube tutorials, StackOverflow and other internet sources. 
 
 <b>THINGS WE ARE PROUD OF</b><br>
@@ -99,7 +101,7 @@ Some of the things we learned on this project include:
 - scroll view implementation added to every view, this allows user's to rotate the device for comfort and still have full visibility of the app content
 - swipe view implementation and page indicator functionality, this involved a number of iterations firstly with just text, then images, then using arrays, finally adding an indicator to show which swipe view the user was on. Each iteration involved taking apart the code already written into the app, and adding in only the additional concepts that were needed for the new iteration - a great exercise in refactoring.
 - successfully managing the project remotely using GitHub
-- building an online database and successfully linking it to the app
+- building an online database and successfully linking it to the app this involved a lot of trial and error plus copious amounts of research. There are three differant versions that we went through in order to get it right, this involved adding a background worker class to take care of all the php because we are using the database in both the login page and the register page.
 - the fact that the app is so robust and looks quite professional
 
 <b><i>NOTE:</i></b> As the content of this app has been written and provided to us by Dental Tech Group for the purposes of this project, this GitHub repository will be made private after this assignment has been graded.

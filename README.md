@@ -6,17 +6,12 @@ This mobile app was designed in conjunction with Dental Tech Group, to support t
 - Nicola Mahon (DT228)
 - Bevin Murray (Dental Tech Group)
 
-[![Video](http://img.youtube.com/vi/NytrvnN8dhk/0.jpg)](http://www.youtube.com/watch?v=NytrvnN8dhk)
-
-https://youtu.be/N28Om1PuSe4
-https://youtu.be/NytrvnN8dhk
-
 <b>Click image below to play video:</b>
 
 [![Video](http://img.youtube.com/vi/N28Om1PuSe4/0.jpg)](http://www.youtube.com/watch?v=N28Om1PuSe4)
 
 <b>PROJECT OVERVIEW</b><br>
-This mobile app was designed as part of 2nd year Object Oriented Programming assignment. We were given free reign to build anything we like, in any language, using any tools or software we desired. We decided that despite having no previous experience of mobile app development, we would like to push ourselves to build something using completely new tools, new to us at least.<br><br>
+This mobile app was designed as part of a 2nd year Object Oriented Programming assignment. We were given free reign to build anything we like, in any language, using any tools or software we desired. We decided that despite having no previous experience of mobile app development, we would like to push ourselves to build something using completely new tools, new to us at least.<br><br>
 In deciding what exactly to make as a mobile app, we approached a business owner who had expressed an interested in building an app, and who like us, had no previous experience of such a project. We met with the business owner to discuss if this might be a feasible project from both sides. It would be an opportunity for us to build something that someone wanted, and provide the business owner with an opportunity to discover how mobile apps were designed and built from a business point of view. Both parties were in agreement, we were in uncharted territory, but we were there together. 
 
 <b>REQUIREMENTS GATHERING</b><br>
@@ -28,7 +23,6 @@ Together we came up with a simple design; the app would be an information reposi
 <i><b>Functionality</b></i>
 - A repository for oral health care learning tools and techniques
 - Restricted access for Dental Tech Group clients
-- Option to sign up for mailing list
 
 <i><b>Special Requirements</b></i>
 - Simple and intuitive design to suppport a majoratively aged user group
@@ -51,6 +45,8 @@ The main menu options help to direct the user to the appropriate area of interes
 2) Patient Care - specifically aimed at Carers/Nurses caring for Patients
 
 ![main_menu](/screenshots/main_menu.png?raw=true "main_menu")
+![patient_care_menu](/screenshots/patient_care_menu.png?raw=true "patient_care_menu")
+![patient_care_menu](/screenshots/patient_care_menu.png?raw=true "patient_care_menu")
 
 <i><b>Self Care</b></i><br>
 This menu takes the user to a view where they can select from a number of further menu options.

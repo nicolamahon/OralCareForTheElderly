@@ -17,7 +17,7 @@ Together we came up with a simple design; the app would be an information reposi
 
 <hr><i><b>Functionality</b></i><br>
 - A repository for oral health care learning tools and techniques <br>
-- Restricted access for Dental Tech Group clients
+- Restricted access for Dental Tech Group clients <br>
 
 <i><b>Special Requirements</b></i>
 - Simple and intuitive design to suppport a majoratively aged user group
@@ -95,9 +95,9 @@ Some of the things we learned on this project include:
 - how to hack together ideas/solutions using various resources like YoutTube tutorials, StackOverflow and other internet sources. 
 
 <b>THINGS WE ARE PROUD OF</b><br>
-- the extent of self-directed learning
-- scroll view implementation
-- swipe view implementation
+- the extent of self-directed learning, every step of this project we were pushing ourselves to research and learn through tutorials, videos and guidance documents. 
+- scroll view implementation added to every view, this allows user's to rotate the device for comfort and still have full visibility of the app content
+- swipe view implementation and page indicator functionality, this involved a number of iterations firstly with just text, then images, then using arrays, finally adding an indicator to show which swipe view the user was on. Each iteration involved taking apart the code already written into the app, and adding in only the additional concepts that were needed for the new iteration - a great exercise in refactoring.
 - successfully managing the project remotely using GitHub
 - building an online database and successfully linking it to the app
 - the fact that the app is so robust and looks quite professional

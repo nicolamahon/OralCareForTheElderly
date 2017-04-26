@@ -9,7 +9,7 @@ This mobile app was designed in conjunction with Dental Tech Group, to support t
 
 <b>Click image below to play video:</b>
 
-[![Video](http://img.youtube.com/vi/7liHKVstD8Y/0.jpg)](http://www.youtube.com/watch?v=7liHKVstD8Y)
+[![Video](http://img.youtube.com/vi/N28Om1PuSe4.jpg)](http://www.youtube.com/watch?v=N28Om1PuSe4)
 
 <b>PROJECT OVERVIEW</b><br>
 This mobile app was designed as part of 2nd year Object Oriented Programming assignment. We were given free reign to build anything we like, in any language, using any tools or software we desired. We decided that despite having no previous experience of mobile app development, we would like to push ourselves to build something using completely new tools, new to us at least.<br><br>

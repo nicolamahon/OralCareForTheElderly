@@ -1,4 +1,4 @@
-# Oral Care for the Elderly		![app_icon_opaque](/screenshots/app_icon_opaque.png?raw=true "app_icon_opaque")
+# Oral Care for the Elderly					![app_icon_opaque](/screenshots/app_icon_opaque.png?raw=true "app_icon_opaque")
 This mobile app was designed in conjunction with Dental Tech Group, to support the learning of oral care procedures for dental and nursing-home staff, in providing care to the elderly.
 
 <b>CONTRIBUTORS</b><br>
@@ -38,6 +38,9 @@ Responsibility for the design of the app, including the app icon, were freely gi
 Here the user has the opportunity to register as a user and login to the content via a web-hosted database that we created as part of the project. There is also an option to view contact information for Dental Tech Group without having to login or register. The decision to restrict access to the content was a decision made by the business owner.  
 
 ![landing_page](/screenshots/landing_page.png?raw=true "landing_page")
+![login](/screenshots/login.png?raw=true "login")
+![register](/screenshots/register.png?raw=true "register")
+![useful_info](/screenshots/useful_info.png?raw=true "useful_info")
 
 <i><b>Main Menu</b></i><br>
 The main menu options help to direct the user to the appropriate area of interest. 
@@ -106,8 +109,8 @@ Some of the things we learned on this project include:
 <b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app, showing a typical navgation through the content: </b>
 
 ![landing_page](/screenshots/landing_page.png?raw=true "landing_page")
-![register](/screenshots/register.png?raw=true "register")
 ![login](/screenshots/login.png?raw=true "login")
+![register](/screenshots/register.png?raw=true "register")
 ![useful_info](/screenshots/useful_info.png?raw=true "useful_info")
 ![main_menu](/screenshots/main_menu.png?raw=true "main_menu")
 ![self_care_menu](/screenshots/self_care_menu.png?raw=true "self_care_menu")

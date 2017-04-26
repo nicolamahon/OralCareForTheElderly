@@ -1,4 +1,4 @@
-# Oral Care for the Elderly ![app_icon_opaque](/screenshots/app_icon_opaque.png?raw=true "app_icon_opaque")
+![app_icon_opaque](/screenshots/app_icon_opaque #Oral Care for the Elderly .png?raw=true "app_icon_opaque")
 This mobile app was designed in conjunction with Dental Tech Group, to support the learning of oral care procedures for dental and nursing-home staff, in providing care to the elderly.
 
 <b>Click image below to play video:</b>

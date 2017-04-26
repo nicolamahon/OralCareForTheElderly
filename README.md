@@ -15,7 +15,8 @@ To begin the requirements gathering we met with the business owner to discuss th
 <b>DESIGN</b><br>
 Together we came up with a simple design; the app would be an information repository with a menu-lead interface, incorporating a database and with access to content in a restricted area through user-registration. 
 
-</hr><i><b>Functionality</b></i>
+<hr>
+<i><b>Functionality</b></i>
 - A repository for oral health care learning tools and techniques
 - Restricted access for Dental Tech Group clients
 
@@ -82,7 +83,8 @@ This section is typically aimed at Carers and Nurses. It takes the user to a vie
 ![lost_denture1](/screenshots/lost_denture1.png?raw=true "lost_denture1")
 ![emergency](/screenshots/emergency.png?raw=true "emergency")
 
-</hr><b>SELF DIRECTED LEARNING</b><br>
+<hr>
+<b>SELF DIRECTED LEARNING</b><br>
 In order to complete this project, we had to do a large amount of self directed learning, initially building some very simple apps using Android Studio in order to familiarise ourselves with the technology and concepts involved. 
 
 Some of the things we learned on this project include:
@@ -110,7 +112,8 @@ That's it, we hope you enjoy the app and perhaps find it a useful tool.
 - Nicola Mahon (DT228)
 - Bevin Murray (Dental Tech Group)
 
-</hr><b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app, showing a typical navgation through the content: </b>
+<hr>
+<b>Below are a selection of screenshots from <i>some</i> of the content on the mobile app, showing a typical navgation through the content:</b>
 
 ![landing_page](/screenshots/landing_page.png?raw=true "landing_page")
 ![login](/screenshots/login.png?raw=true "login")

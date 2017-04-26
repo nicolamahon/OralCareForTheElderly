@@ -102,7 +102,7 @@ Some of the things we learned on this project include:
 - scroll view implementation added to every view, this allows user's to rotate the device for comfort and still have full visibility of the app content
 - swipe view implementation and page indicator functionality, this involved a number of iterations firstly with just text, then images, then using arrays, finally adding an indicator to show which swipe view the user was on. Each iteration involved taking apart the code already written into the app, and adding in only the additional concepts that were needed for the new iteration - a great exercise in refactoring.
 - successfully managing the project remotely using GitHub
-- building an online database and successfully linking it to the app this involved a lot of trial and error plus copious amounts of research. There are three differant versions that we went through in order to get it right, this involved adding a background worker class to take care of all the php because we are using the database in both the login page and the register page.
+- building an online database and successfully linking it to the app this involved a lot of trial and error plus copious amounts of research. There are three differant versions that we went through in order to get it right, this involved adding a background worker class(PHP and Java) to take care of all the php because we are using the database in both the login page and the register page.
 - the fact that the app is so robust and looks quite professional
 
 <b><i>NOTE:</i></b> As the content of this app has been written and provided to us by Dental Tech Group for the purposes of this project, this GitHub repository will be made private after this assignment has been graded.
